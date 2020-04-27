@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home';
 import Services from './Services';
-import About_me from './About_me';
+import AboutMe from './AboutMe';
 
 import './App.css';
 
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Home/>
         <Services/>
-        <About_me/>
+        <AboutMe/>
       </div>
     );
   }

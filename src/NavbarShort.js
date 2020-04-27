@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar_short() {
+function NavbarShort() {
     return (
         <div className="navbar_short">
           <div className="navbar_menu">
@@ -14,4 +14,4 @@ function Navbar_short() {
     )
 }
 
-export default Navbar_short;
+export default NavbarShort;

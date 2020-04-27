@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Services_container() {
+function ServicesContainer() {
     return (
         <div>
         <div className="services_description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
@@ -24,4 +24,4 @@ function Services_container() {
     )
 }
 
-export default Services_container;
+export default ServicesContainer;

@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar_short from './Navbar_short';
-import Work_with_me from './Work_with_me';
+import NavbarShort from './NavbarShort';
+import WorkWithMe from './WorkWithMe';
 import Footer from './Footer';
 
-function About_me(){
+function AboutMe(){
     return (
         <dev className="about_me">
                         <div>TEST3</div>
 
-            <Navbar_short/>
+            <NavbarShort/>
             <dev className="bio_container">
                 <dev className="photo"></dev>
                 <dev className="bio"></dev>
@@ -17,10 +17,10 @@ function About_me(){
                 <dev className="skills_top">My Skills</dev>
                 <dev className="skills"></dev>
             </dev>
-            <Work_with_me/>
+            <WorkWithMe/>
             <Footer/>
         </dev>
     )
 }
 
-export default About_me;
+export default AboutMe;

@@ -4,10 +4,16 @@ body {
   font-family: sans-serif;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
 .navbar_menu {
   display: flex;
 }
 
 .col {
-  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Gallery from './Gallery';
-import Work_with_me from './Work_with_me.js';
+import WorkWithMe from './WorkWithMe';
 import Footer from './Footer';
 
 function Home() {
     return (
       <div>
-        <h1>Test</h1>
+        <h1>HOME PAGE</h1>
         <Navbar/>
         <div className="intoduction">
           <p>I'm Sergei Nikiforov, a freelance photographer 
@@ -16,7 +16,7 @@ function Home() {
             to find my latest and favorite shots.</p>
         </div>
         <Gallery/>
-        <Work_with_me/>
+        <WorkWithMe/>
         <Footer/>
       </div>
     )

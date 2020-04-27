@@ -10,8 +10,8 @@ function Navbar() {
             <div className="col">CONTACT</div>
           </div>
           <div className="name">
-            <div className="name_top"></div>
-            <div className="name_bottom"></div>
+          <div className="my_name"><p>Sergei Nikiforov</p>
+          <p>freelance photographer</p></div>
           </div>
         </div>
     )

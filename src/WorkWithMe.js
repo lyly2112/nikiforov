@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Work_with_me () {
+function WorkWithMe () {
 return (
     <div className="work_with_me">
         <div className="lets_header"></div>
@@ -10,4 +10,4 @@ return (
 )
 }
 
-export default Work_with_me;
+export default WorkWithMe;
