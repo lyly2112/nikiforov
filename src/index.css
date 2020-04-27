@@ -6,14 +6,48 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  background-color: pink;
+  color: white;
+  font-family: lato;
+  
 }
 
 .navbar_menu {
   display: flex;
+  justify-content: center;
+  flex-basis: 25%;
 }
 
 .col {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+  font-size: 49px;
+}
+
+.intoduction {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  font-size: 27px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: purple;
+  color: white;
+  height: 300px;
+  justify-content: space-evenly
+}
+.gallery_elem {
+  border: 2px;
+
+
 }

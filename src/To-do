@@ -1,0 +1,83 @@
+To-do
+
+
+1) Make a commit with navbar elements being centered
+
+2) Change components' names: Navbar_short => NavbarShort
+
+3) Try  to think about naming: Why is it short? Will you remember what "Short" means after a year? Maybe it should be "NavbarHome" as it only works for Home page (for example)
+
+4) Rename divs with className "col" to something more meaningfull, preferably using BEM:
+"col" => "navbar_item"
+
+5)
+Gallery.js
+
+<div className="gallery">   
+    <div className="gallery_elem">
+        <div className="photo"></div>
+        <div className="gallery_elem_name">Landscape</div>
+    </div>
+</div>
+
+<div className="gallery">  <!-- or "gallery-container" -->  
+    <div className="gallery__gallery-element">
+        <div className="gallery-element__photo"></div>
+        <div className="gallery-element__name">Landscape</div>
+    </div>
+</div>
+<!-- Don't forget to put double underscores when using BEM -->
+http://getbem.com/introduction/
+
+6)
+intoduction -> introduction
+
+7)
+Reviews.js
+<div className="reviews">
+    <div className="review_name">What Do My Customers Think?
+    </div>
+    <div className="review_container">
+        <div className="photo"></div>
+        <dev className="review_text_container">
+            <div className="review_text">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</div>
+            <div className="client_name">Connor Gibson</div>
+        </dev>
+    </div>
+</div>
+
+<div className="reviews-container">
+    <!-- Try to minimize usage of DIV tag as it's not semantic. In this case, use H1 tag, or H2, H3 depends on importance of the title -->
+    <h1 className="reviews-container__name">What Do My Customers Think?</h1> <!-- I prefer using "title" or "header" over "name" -->
+    <div className="reviews-container__reviews-inner-container">
+        <div className="reviews-container__photo"></div>
+        <!-- It's okay to have typos when developing a static website, because HTML is mostly forgiving for those, when you make a typo in a tag name in React, it might cause a crash of the project -->
+        <div className="reviews-container__reviews-content-container">
+            <div className="reviews-content-container__text">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</div>
+            <!-- Using a semantic paragraph tag -->
+            <p className="reviews-content-container__client-name">Connor Gibson</p>
+        </div>
+    </div>
+</div>
+
+8) Start working on routes
+https://github.com/in43sh/flex-trans/blob/dev/src/App.js
+https://github.com/in43sh/flex-trans/blob/dev/src/routes.js
+
+9) After you set up routes, move Footer to your App.js
+
+10) I would create a folder names "pages" in your src so you don't get confused Page Components with Content Components.
+e.g. Services and ServicesContainer
+Though this is not necessary
+
+11) At some point we will add Sass and start separating your css for components. For now you can write all css in your index.css but try to give some separation before you start writing css for the new component:
+
+// Navbar
+
+// Home
+
+// Gallery
+
+// Reviews
+
+// Footer

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import NavbarHome from './NavbarHome';
 import Gallery from './Gallery';
 import WorkWithMe from './WorkWithMe';
 import Footer from './Footer';
@@ -7,8 +7,7 @@ import Footer from './Footer';
 function Home() {
     return (
       <div>
-        <h1>HOME PAGE</h1>
-        <Navbar/>
+        <NavbarHome/>
         <div className="intoduction">
           <p>I'm Sergei Nikiforov, a freelance photographer 
             specializing in landscape, advertorial and conceptual 
