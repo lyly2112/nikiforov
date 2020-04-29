@@ -7,6 +7,7 @@ import Footer from './Footer';
 function Home() {
     return (
       <div>
+        <div className="home_container">
         <NavbarHome/>
         <div className="intoduction">
           <p>I'm Sergei Nikiforov, a freelance photographer 
@@ -17,6 +18,7 @@ function Home() {
         <Gallery/>
         <WorkWithMe/>
         <Footer/>
+        </div>
       </div>
     )
 }

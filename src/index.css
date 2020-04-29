@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: #4b4b4b;
 }
 
 .navbar {
@@ -10,7 +11,6 @@ body {
   background-color: pink;
   color: white;
   font-family: lato;
-  
 }
 
 .navbar_menu {
@@ -44,10 +44,64 @@ body {
   background-color: purple;
   color: white;
   height: 300px;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 .gallery_elem {
-  border: 2px;
-
-
+  border: 2px solid black;
 }
+
+.work_with_me {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center; 
+  margin: 0px auto;
+  justify-content: center;
+  margin: 0px auto;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+.lets_header {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0px;
+  margin-bottom: 10px;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.contact_button {
+  height: 11px;
+  width: 104px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background: #34b9d7;
+  font-size: 11px;
+  color: white;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    padding: 11px 20px 12px;
+    border-radius: 25px;
+    font-weight: 900;
+    text-shadow: none;
+    transition: all 150ms ease-in;
+    box-shadow: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    cursor: pointer;
+    margin: 0px auto;
+}
+
+.footer {
+  display: flex;
+  height: 100px;
+  }
