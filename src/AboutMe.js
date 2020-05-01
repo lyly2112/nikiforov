@@ -6,7 +6,7 @@ import Footer from './Footer';
 function AboutMe(){
     return (
         <dev className="about_me">
-                        <div>TEST3</div>
+                        <div>About me</div>
 
             <NavbarShort/>
             <dev className="bio_container">

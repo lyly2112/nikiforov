@@ -7,7 +7,7 @@ import Footer from './Footer';
 function Services() {
     return (
         <div>
-            <div>TEST2</div>
+            <div>Services</div>
             <NavbarShort/>
             <ServicesContainer/>
             <Reviews/>

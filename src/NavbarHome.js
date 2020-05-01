@@ -2,6 +2,7 @@ import React from 'react';
 
 function NavbarHome() {
     return (
+      <div className="navbar_wrapper">
         <div className="navbar">
           <div className="navbar_menu">
             <div className="col">HOME</div>
@@ -14,6 +15,8 @@ function NavbarHome() {
           <p>freelance photographer</p></div>
           </div>
         </div>
+      </div>
+        
     )
 }
 
