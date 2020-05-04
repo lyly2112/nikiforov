@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Home from './Home';
-import Services from './Services';
-import AboutMe from './AboutMe';
+import HomePage from './HomePage';
+import ServicesPage from './ServicesPage';
+import AboutMePage from './AboutMePage';
+import ContactPage from './ContactPage';
 
 import './App.css';
 
@@ -9,9 +10,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home/>
-        <Services/>
-        <AboutMe/>
+        <HomePage/>
+        <ServicesPage/>
+        <AboutMePage/>
+        <ContactPage/>
       </div>
     );
   }

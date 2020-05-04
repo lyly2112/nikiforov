@@ -2,18 +2,18 @@ import React from 'react';
 
 function Gallery() {
     return (
-        <div className="gallery">   
-            <div className="gallery_elem">
+        <div className="gallery-container">   
+            <div className="gallery__elem">
                 <div className="photo"></div>
-                <div className="gallery_elem_name">Landscape</div>
+                <div className="gallery__elem__name">Landscape</div>
             </div>
-            <div className="gallery_elem">
+            <div className="gallery__elem">
                 <div className="photo"></div>
-                <div className="gallery_elem_name">Street Photography</div>
+                <div className="gallery__elem__name">Street Photography</div>
             </div>
-            <div className="gallery_elem">
+            <div className="gallery__elem">
                 <div className="photo"></div>
-                <div className="gallery_elem_name">Portrait</div>
+                <div className="gallery__elem__name">Portrait</div>
             </div>
         </div>
     )

@@ -1,14 +1,14 @@
 import React from 'react';
-import NavbarShort from './NavbarShort';
+import NavbarServices from './NavbarServices';
 import WorkWithMe from './WorkWithMe';
 import Footer from './Footer';
 
-function AboutMe(){
+function AboutMePage(){
     return (
         <dev className="about_me">
                         <div>About me</div>
 
-            <NavbarShort/>
+            <NavbarServices/>
             <dev className="bio_container">
                 <dev className="photo"></dev>
                 <dev className="bio"></dev>
@@ -23,4 +23,4 @@ function AboutMe(){
     )
 }
 
-export default AboutMe;
+export default AboutMePage;

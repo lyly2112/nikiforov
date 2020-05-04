@@ -1,63 +1,38 @@
 body {
-  margin: 0;
+  margin: auto 0;
   padding: 0;
   font-family: sans-serif;
   color: #4b4b4b;
 }
 
-.navbar_wrapper {
+.navbar-menu {
   display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.navbar {
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
   opacity: 0.5;
-  background-color: pink;
+  background-color: blueviolet;
   color: white;
   font-family: lato;
   height: 75px;
-  width: 1905px;
-}
-
-
-
-.navbar_short {
-  display: flex;
-  flex-direction: column;
-  background-color: pink;
-  color: white;
-  font-family: lato;
-}
-
-.navbar_menu {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  align-items: center;
   flex-basis: 25%;
 }
 
-.col {
+.navbar-menu__element {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.name {
+.home-page__intro-container {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
   padding-right: 100px;
-  font-size: 49px;
+  font-size: 20px;
+  font-weight: 900 !important;
 }
 
-.intoduction {
-  display: flex;
-  padding: 50px;
-  justify-content: center;
-  font-size: 27px;
-}
-
-.gallery {
+.gallery-container {
   display: flex;
   flex-wrap: nowrap;
   background-color: purple;
@@ -65,11 +40,11 @@ body {
   height: 300px;
   justify-content: space-evenly;
 }
-.gallery_elem {
+.gallery__elem {
   border: 2px solid black;
 }
 
-.work_with_me {
+.work-with-me-container {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
@@ -87,7 +62,7 @@ body {
   margin-right: 175px;
 }
 
-.lets_header {
+.work-with-me__header {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 0px;
@@ -98,7 +73,7 @@ body {
   font-family: 'Lato', sans-serif !important;
 }
 
-.contact_button {
+.contact-button {
   height: 11px;
   width: 104px;
   margin-left: 4px;
@@ -122,7 +97,7 @@ body {
 
 .footer {
   display: flex;
-  background:#1e1e1e url(/home/lil/webdev/nikiforov/src/bg2.png) repeat;
+  background:#1e1e1e url(/home/lil/webdev/nikiforov/src/footerBackground.png) repeat;
   height: 100px;
   justify-content: center;
   align-items: center;

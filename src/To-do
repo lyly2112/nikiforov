@@ -3,7 +3,7 @@ To-do
 
 1) Make a commit with navbar elements being centered
 
-2) Change components' names: Navbar_short => NavbarShort
+2) Change components' names: Navbar_short => NavbarServices
 
 3) Try  to think about naming: Why is it short? Will you remember what "Short" means after a year? Maybe it should be "NavbarHome" as it only works for Home page (for example)
 
@@ -16,7 +16,7 @@ Gallery.js
 <div className="gallery">   
     <div className="gallery_elem">
         <div className="photo"></div>
-        <div className="gallery_elem_name">Landscape</div>
+        <div className="gallery__elem__name">Landscape</div>
     </div>
 </div>
 

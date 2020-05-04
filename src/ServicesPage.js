@@ -1,14 +1,14 @@
 import React from 'react';
-import NavbarShort from './NavbarShort';
+import NavbarServices from './NavbarServices';
 import ServicesContainer from './ServicesContainer';
 import Reviews from './Reviews';
 import Footer from './Footer';
 
-function Services() {
+function ServicesPage() {
     return (
         <div>
             <div>Services</div>
-            <NavbarShort/>
+            <NavbarServices/>
             <ServicesContainer/>
             <Reviews/>
             <Footer/>
@@ -16,4 +16,4 @@ function Services() {
     )
 }
 
-export default Services;
+export default ServicesPage;

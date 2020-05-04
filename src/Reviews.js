@@ -2,21 +2,26 @@ import React from "react";
 
 function Reviews() {
     return (
-        <div className="reviews">
-            <div className="review_name">What Do My Customers Think?</div>
-            <div className="review_container">
-                <div className="photo"></div>
-                <dev className="review_text_container">
-                    <div className="review_text">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</div>
-                    <div className="client_name">Connor Gibson</div>
-                </dev>
+        <div className="reviews-container">
+            <div className="review">
+                <div className="reviews-header">What Do My Customers Think?</div>
+                <div className="review">
+                    <div className="review__photo"></div>
+                    <dev className="review__text-container">
+                        <div className="review__text">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</div>
+                        <div className="review__name">Connor Gibson</div>
+                    </dev>
+                </div>
             </div>
-            <div className="review_container">
-                <div className="photo"></div>
-                <dev className="review_text_container">
-                    <div className="review_text">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</div>
-                    <div className="client_name">Connor Gibson</div>
-                </dev>
+            <div className="review">
+                <div className="reviews-header">What Do My Customers Think?</div>
+                <div className="review">
+                    <div className="review__photo"></div>
+                    <dev className="review__text-container">
+                        <div className="review__text">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</div>
+                        <div className="review__name">Connor Gibson</div>
+                    </dev>
+                </div>
             </div>
         </div>
     )
