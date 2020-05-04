@@ -2,6 +2,12 @@ import React from 'react';
 import NavbarServices from './NavbarServices';
 import WorkWithMe from './WorkWithMe';
 import Footer from './Footer';
+import {
+    BrowserRouter as Router,
+    Swetch,
+    Route,
+    Link
+} from "react-router-dom";
 
 function AboutMePage(){
     return (
