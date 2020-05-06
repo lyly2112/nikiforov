@@ -1,13 +1,13 @@
 import React from 'react';
 import Gallery from './Gallery';
 import WorkWithMe from './WorkWithMe';
-import Footer from './Footer';
-import NavbarMenu from './NavbarMenu';
+// import Footer from './Footer';
+// import NavbarMenu from './NavbarMenu';
 
 function HomePage() {
     return (
     <div className="homePageContainer">
-      <NavbarMenu/>
+      {/* <NavbarMenu/> */}
       <div className="home-page__intro-container">
           <p>Sergei Nikiforov</p>
           <p>freelance photographer</p>
@@ -18,7 +18,7 @@ function HomePage() {
       </div>
       <Gallery/>
       <WorkWithMe/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
     )
 }

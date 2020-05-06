@@ -1,20 +1,14 @@
 import React from 'react';
 import NavbarServices from './NavbarServices';
 import WorkWithMe from './WorkWithMe';
-import Footer from './Footer';
-import {
-    BrowserRouter as Router,
-    Swetch,
-    Route,
-    Link
-} from "react-router-dom";
+// import Footer from './Footer';
 
-function AboutMePage(){
+function AboutPage(){
     return (
-        <dev className="about_me">
-                        <div>About me</div>
+        <dev className="about">
+            <div>About</div>
 
-            <NavbarServices/>
+            {/* <NavbarServices/> */}
             <dev className="bio_container">
                 <dev className="photo"></dev>
                 <dev className="bio"></dev>
@@ -24,9 +18,9 @@ function AboutMePage(){
                 <dev className="skills"></dev>
             </dev>
             <WorkWithMe/>
-            <Footer/>
+            {/* <Footer/> */}
         </dev>
     )
 }
 
-export default AboutMePage;
+export default AboutPage;
