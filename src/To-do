@@ -1,18 +1,18 @@
 To-do
 
 
-1) Make a commit with navbar elements being centered
+1) Make a commit with navbar elements being centered done
 
-2) Change components' names: Navbar_short => NavbarServices
+2) Change components' names: Navbar_short => NavbarServices done
 
 3) Try  to think about naming: Why is it short? Will you remember what "Short" means after a year? Maybe it should be "NavbarHome" as it only works for Home page (for example)
-
+done
 4) Rename divs with className "col" to something more meaningfull, preferably using BEM:
 "col" => "navbar_item"
-
+done
 5)
 Gallery.js
-
+done
 <div className="gallery">   
     <div className="gallery_elem">
         <div className="photo"></div>
@@ -31,7 +31,7 @@ http://getbem.com/introduction/
 
 6)
 intoduction -> introduction
-
+?
 7)
 Reviews.js
 <div className="reviews">

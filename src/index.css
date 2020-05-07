@@ -10,8 +10,7 @@ body {
   justify-content: center;
   flex-direction: row;
   opacity: 0.5;
-  background-color: blueviolet;
-  color: white;
+ // background-color: blueviolet;
   font-family: lato;
   height: 75px;
   width: 100%;
@@ -105,3 +104,48 @@ body {
   text-align: center;
   font-size: 15px;
   }
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 40px;
+}
+
+.services-container_header{
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-list_row {
+  display: flex;
+  flex-direction: row;
+}
+  .service {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: left;
+    margin: 0px auto;
+    flex-direction: row;
+  }
+
+  .service_desription {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .service__header {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    font-family: 'Lato', sans-serif !important;
+}

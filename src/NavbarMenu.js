@@ -1,11 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import HomePage from './HomePage';
-import ServicesPage from './ServicesPage';
-import AboutPage from './AboutPage';
-import ContactPage from './ContactPage';
-
 function NavbarMenu() {
     return (
       <div className="navbar-menu">
