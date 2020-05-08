@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Home from './HomePage';
-import About from './AboutPage';
-import Services from './ServicesPage';
-import ContactUs from './ContactPage';
+import Home from './PagesComponents/HomePage';
+import About from './PagesComponents/AboutPage';
+import Services from './PagesComponents/ServicesPage';
+import ContactUs from './PagesComponents/ContactPage';
 
 export default (
     <Switch>

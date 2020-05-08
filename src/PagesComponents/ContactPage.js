@@ -4,11 +4,12 @@ import React from 'react';
 
 function ContactPage(){
     return (
-        <dev className="contact-page">
-            <div>contact page</div>
+        <div className="contact-page-container">
+            
             {/* <NavbarServices/> */}
+            <div className="contact-page__main">contact page</div>
             {/* <Footer/> */}
-        </dev>
+        </div>
     )
 }
 
