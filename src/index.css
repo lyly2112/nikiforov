@@ -4,6 +4,7 @@ body {
   font-family: sans-serif;
   color: #4b4b4b;
   height: 100%;
+  margin: 0;
 }
 
 .navbar-menu {
@@ -107,7 +108,7 @@ body {
 
 .footer {
   display: flex;
-  background:#1e1e1e url(/home/lil/webdev/nikiforov/src/footerBackground.png) repeat;
+  background:#1e1e1e url(/home/lil/webdiv/nikiforov/src/footerBackground.png) repeat;
   height: 100px;
   justify-content: center;
   align-items: center;

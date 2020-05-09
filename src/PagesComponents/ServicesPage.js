@@ -9,7 +9,10 @@ function ServicesPage() {
         <div className="service-page-container">
             <div>Services</div>
             {/* <NavbarServices/> */}
-            <ServicesContainer/>
+            <div className="service-page__main">
+                <ServicesContainer/>    
+            </div>
+
             <Reviews/>
             {/* <Footer/> */}
         </div>

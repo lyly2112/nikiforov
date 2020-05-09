@@ -9,12 +9,12 @@ function AboutPage(){
             {/* <NavbarServices/> */}
             <div className="about-page__main">
                 <div className="bio_container">
-                    <dev className="photo"></dev>
-                    <dev className="bio"></dev>
+                    <div className="photo"></div>
+                    <div className="bio"></div>
                 </div>
                 <div className="skills_container">
-                    <dev className="skills_top">My Skills</dev>
-                    <dev className="skills"></dev>
+                    <div className="skills_top">My Skills</div>
+                    <div className="skills"></div>
                 </div>
                 <WorkWithMe/>
             </div>
