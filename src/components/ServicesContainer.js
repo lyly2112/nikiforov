@@ -1,5 +1,7 @@
 import React from 'react';
-import camera from './images/camera.svg';
+import camera from '../images/camera.svg';
+import video from '../images/video.svg';
+
 
 function ServicesContainer() {
     return (
@@ -22,7 +24,7 @@ function ServicesContainer() {
                     </div>
                     <div className="service">
                         <div className="service__icon">
-                            <img src={camera} alt="camera" />
+                            <img src={video} alt="video" />
                         </div>
                         <div className="service_desription">
                             <h6 className="service__header">MOTION VIDEO</h6>
@@ -32,7 +34,6 @@ function ServicesContainer() {
                         </div>
                     </div>
                 </div>
-               
             </div>
         </div>
     )

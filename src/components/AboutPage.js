@@ -1,6 +1,5 @@
 import React from 'react';
 import WorkWithMe from './WorkWithMe';
-// import Footer from './Footer';
 
 function AboutPage(){
     return (

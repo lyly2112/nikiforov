@@ -1,16 +1,18 @@
 import React from 'react';
 import Gallery from './Gallery';
 import WorkWithMe from './WorkWithMe';
-// import Footer from './Footer';
-// import NavbarMenu from './NavbarMenu';
+
 
 function HomePage() {
     return (
     <div className="home-page-container">
-      <div className="navbar-wrapper">
+
         {/* <NavbarMenu/> */}
-      </div>
+
       <div className="home-page__main>">
+      <div className="home-page__main-photo">
+        <img src={require('../images/home-page-photo.jpg')} alt="mountain"/> 
+      </div>
         <div className="home-page__intro-container">
             <p>Sergei Nikiforov</p>
             <p>freelance photographer</p>

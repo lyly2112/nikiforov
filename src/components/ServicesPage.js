@@ -1,7 +1,6 @@
 import React from 'react';
-// import NavbarServices from './NavbarServices';
-import ServicesContainer from '../ServicesContainer';
-import Reviews from '../Reviews';
+import ServicesContainer from './ServicesContainer';
+import Reviews from './Reviews';
 
 
 function ServicesPage() {
@@ -12,7 +11,6 @@ function ServicesPage() {
             <div className="service-page__main">
                 <ServicesContainer/>    
             </div>
-
             <Reviews/>
             {/* <Footer/> */}
         </div>

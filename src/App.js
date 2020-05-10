@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import NavbarMenu from './NavbarMenu';
-// import HomePage from './HomePage';
-// import ServicesPage from './ServicesPage';
-// import AboutPage from './AboutPage';
-// import ContactPage from './ContactPage';
-import Footer from './Footer';
+import NavbarMenu from './components/NavbarMenu';
+import Footer from './components/Footer';
 import routes from './routes';
 
 import './App.css';

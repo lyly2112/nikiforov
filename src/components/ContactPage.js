@@ -1,6 +1,4 @@
 import React from 'react';
-// import NavbarServices from './NavbarServices';
-// import Footer from './Footer';
 
 function ContactPage(){
     return (
