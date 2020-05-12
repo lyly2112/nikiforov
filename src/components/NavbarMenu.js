@@ -5,16 +5,16 @@ function NavbarMenu() {
     return (
       <div className="navbar-menu">
         <div className="navbar-menu__element">
-          <Link to="/">Home</Link>
+          <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
         </div>
         <div className="navbar-menu__element">
-          <Link to="/services">Services</Link>
+          <Link to="/services" style={{ textDecoration: 'none' }}>Services</Link>
         </div>
         <div className="navbar-menu__element">
-          <Link to="/about">About Me</Link>
+          <Link to="/about" style={{ textDecoration: 'none' }}>About Me</Link>
         </div>
         <div className="navbar-menu__element">
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" style={{ textDecoration: 'none' }}>Contact</Link>
         </div>
       </div>
     )

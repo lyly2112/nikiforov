@@ -4,6 +4,7 @@ import Home from './components/HomePage';
 import About from './components/AboutPage';
 import Services from './components/ServicesPage';
 import ContactUs from './components/ContactPage';
+import ContactButton from './components/ContactButton';
 
 export default (
     <Switch>
@@ -11,5 +12,6 @@ export default (
         <Route path="/about" component={ About }/>
         <Route path="/services" component={ Services }/>
         <Route path="/contact" component={ ContactUs }/>
+        <Route path="/contact" component={ ContactButton } />
     </Switch>
 )

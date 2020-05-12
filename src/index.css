@@ -21,14 +21,7 @@ body {
   width: 100%;
   align-items: center;
   flex-basis: 25%;
-  text-decoration: none;
-
 }
-
-.navbar-menu:hover {
-  text-decoration: none;
-  color: 34b9d7;
-  }
 
 .navbar-menu__element {
   padding-left: 1rem;
@@ -36,7 +29,8 @@ body {
 }
 
 .navbar-menu__element:hover {
-  color: 34b9d7;
+  padding: 1rem;
+  border-bottom: 3px solid;
   }
 
 .home-page-container {
@@ -66,7 +60,6 @@ body {
 }
 .gallery__elem {
   display: flex;
-  background-color: violet;
   min-width: 10rem;
   vertical-align: bottom;
   justify-content: flex-start;
@@ -81,9 +74,7 @@ body {
 }
 
 .gallery__elem__name{
-  justify-content: flex-start;
-  align-content: flex-end;
-  align-items: flex-end;
+  padding: 1rem;
 
 }
 .work-with-me-container {

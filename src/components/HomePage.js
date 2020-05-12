@@ -2,7 +2,6 @@ import React from 'react';
 import Gallery from './Gallery';
 import WorkWithMe from './WorkWithMe';
 
-
 function HomePage() {
     return (
     <div className="home-page-container">
