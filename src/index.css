@@ -204,9 +204,23 @@ body {
 }
 
 .contact-page__main {
+  display: flex;
+  margin: auto;
+  width: 1170px;
   flex: 1;
+  flex-direction: row;
+  background-color: teal;
+  justify-content: center;
 }
 
+.contact-page_my-contacts {
+  display: flex;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
 .about-page-container {
   display: flex;
   flex-direction: column;
