@@ -11,14 +11,13 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  font-size: 13px;
-  line-height: 17px;
+  font-size: 1rem;
   font-weight: 900 !important;
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
   font-family: 'Lato', sans-serif !important;
   font-family: lato;
-  height: 100px;
+  height: 10rem;
   width: 100%;
   align-items: center;
   flex-basis: 25%;
@@ -32,8 +31,8 @@ body {
   }
 
 .navbar-menu__element {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .navbar-menu__element:hover {
@@ -51,13 +50,10 @@ body {
   flex: 1;
 }
 
-
-
 .home-page__intro-container {
   display: flex;
   flex-direction: column;
-  padding-right: 100px;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 900 !important;
 
 }
@@ -65,73 +61,78 @@ body {
 .gallery-container {
   display: flex;
   flex-wrap: nowrap;
-  height: 300px;
+  height: 10rem;
   justify-content: space-evenly;
 }
 .gallery__elem {
-  border: 2px solid black;
-  flex: 1;
+  display: flex;
+  background-color: violet;
+  min-width: 10rem;
+  vertical-align: bottom;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: flex-end;
 }
 
+.gallery__elem__photo {
+  max-width: auto;
+  max-height: auto;
+
+}
+
+.gallery__elem__name{
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: flex-end;
+
+}
 .work-with-me-container {
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding: 5rem;
   text-align: center; 
   margin: auto;
   justify-content: center;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: normal;
   font-family: 'Lato', sans-serif;
-  margin-left: 175px;
-  margin-right: 175px;
+  margin: 0 10rem 0 10rem;
 }
 
 .work-with-me__header {
-  font-size: 14px;
-  line-height: 18px;
-  margin-bottom: 0px;
-  margin-bottom: 10px;
+  font-size: 1rem;
   font-weight: 900 !important;
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
-  font-family: 'Lato', sans-serif !important;
 }
 
 .contact-button {
-  height: 11px;
-  width: 104px;
-  margin-left: 4px;
-  margin-right: 4px;
+  width: 6rem;
   background: #34b9d7;
-  font-size: 11px;
+  font-size: 0.7rem;
   color: white;
-    line-height: 1;
-    letter-spacing: 1.5px;
-    padding: 11px 20px 12px;
-    border-radius: 25px;
-    font-weight: 900;
-    text-shadow: none;
-    transition: all 150ms ease-in;
-    box-shadow: none;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    cursor: pointer;
-    margin: auto;
+  letter-spacing: 1.5px;
+  padding: 11px 20px;
+  border-radius: 25px;
+  font-weight: 900;
+  text-shadow: none;
+  transition: all 150ms ease-in;
+  box-shadow: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  cursor: pointer;
+  margin: auto;
 }
 
 .footer {
   display: flex;
   background:#1e1e1e url(/home/lil/webdiv/nikiforov/src/footerBackground.png) repeat;
-  height: 100px;
+  height: 6rem;
   justify-content: center;
   align-items: center;
   color: #cdcdcd;
   text-align: center;
-  font-size: 15px;
+  font-size: 1rem;
   }
 
   .service-page-container {
@@ -147,14 +148,13 @@ body {
 .services-container {
   display: flex;
   flex-direction: column;
-  padding: 60px 40px;
 }
 
 .services-container_header{
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.4;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .services-list {
@@ -168,8 +168,7 @@ body {
 }
   .service {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 1rem 0 1rem;
     justify-content: flex-start;
     margin: auto;
     flex-direction: row;
@@ -187,13 +186,11 @@ body {
     display: flex;
     justify-content: flex-start;
     margin: 0 auto;
-    font-size: 13px;
-    line-height: 17px;
+    font-size: 1rem;
     font-weight: 900 !important;
     text-transform: uppercase !important;
     letter-spacing: 1.5px !important;
     font-family: 'Lato', sans-serif !important;
-
 }
 
 
@@ -206,7 +203,7 @@ body {
 .contact-page__main {
   display: flex;
   margin: auto;
-  width: 1170px;
+  width: 60rem;
   flex: 1;
   flex-direction: row;
   background-color: teal;
