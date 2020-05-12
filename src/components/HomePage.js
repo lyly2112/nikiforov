@@ -5,9 +5,6 @@ import WorkWithMe from './WorkWithMe';
 function HomePage() {
     return (
     <div className="home-page-container">
-
-        {/* <NavbarMenu/> */}
-
       <div className="home-page__main>">
       <div className="home-page__main-photo">
         <img src={require('../images/home-page-photo.jpg')} alt="mountain"/> 

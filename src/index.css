@@ -23,6 +23,26 @@ body {
   flex-basis: 25%;
 }
 
+.navbar-menu__text {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.navbar-menu__text:hover {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.contact-button__text {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-button__text:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar-menu__element {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -31,7 +51,7 @@ body {
 .navbar-menu__element:hover {
   padding: 1rem;
   border-bottom: 3px solid;
-  }
+}
 
 .home-page-container {
     display: flex;
@@ -100,8 +120,8 @@ body {
 .contact-button {
   width: 6rem;
   background: #34b9d7;
-  font-size: 0.7rem;
   color: white;
+  font-size: 0.7rem;
   letter-spacing: 1.5px;
   padding: 11px 20px;
   border-radius: 25px;
