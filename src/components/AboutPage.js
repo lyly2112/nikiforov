@@ -5,7 +5,6 @@ function AboutPage(){
     return (
         <div className="about-page-container">
             <div>About</div>
-            {/* <NavbarServices/> */}
             <div className="about-page__main">
                 <div className="bio_container">
                     <div className="photo"></div>
