@@ -7,20 +7,25 @@ function ContactPage(){
             {/* <NavbarServices/> */}
             <div className="contact-page__main">
                 <div className="contact-form">
-                    <div className="contact-form__name">
-                    <form>
-  <label>
-    Name:
-    <input type="text" name="name" />
+                    <form className="contact-form__input">
+  <label className="contact-form__input-area">
+    <input type="text" name="name" placeholder="Your name" />
   </label>
-  <input type="submit" value="Submit" />
+  <label className="contact-form__input-area">
+    <input type="email" name="email" placeholder="Your email" />
+  </label>
+  <label className="contact-form__input-area">
+    <input type="tel" name="phone" placeholder="Your phone number" />
+  </label>
+  <label className="contact-form__input-area">
+    <input type="text" name="comments" placeholder="Type your message here" />
+  </label>
 </form>
-                    </div>
-                    <div className="contact-form__email">Your email</div>
-                    <div className="contact-form__phone">Your phone</div>
-                    <div className="contact-form__message">Type your message here</div>
-                    <div className="contact-button">Send</div>
+
+                    <div className="send-button">Send</div>
                 </div>
+
+                
             <div className="contact-page_my-contacts">Seattle, WA</div>
             </div>
             {/* <Footer/> */}

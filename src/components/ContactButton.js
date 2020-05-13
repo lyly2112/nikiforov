@@ -5,7 +5,7 @@ function ContactButton () {
     return (
         <div className="contact-button-container">
             <div className="contact-button">
-            <Link to="/contact" style={{ textDecoration: 'none' }}>Contact</Link>
+            <Link to="/contact" className="contact-button__text">Contact</Link>
         </div>
         </div>
         

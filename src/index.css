@@ -123,7 +123,25 @@ body {
   color: white;
   font-size: 0.7rem;
   letter-spacing: 1.5px;
-  padding: 11px 20px;
+  padding: 0.7rem;
+  border-radius: 25px;
+  font-weight: 900;
+  text-shadow: none;
+  transition: all 150ms ease-in;
+  box-shadow: none;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  cursor: pointer;
+  margin: auto;
+}
+
+.send-button {
+  width: 6rem;
+  background: #34b9d7;
+  color: white;
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+  padding: 0.7rem;
   border-radius: 25px;
   font-weight: 900;
   text-shadow: none;
@@ -217,8 +235,9 @@ body {
   width: 60rem;
   flex: 1;
   flex-direction: row;
-  background-color: teal;
+  background-color: pink;
   justify-content: center;
+  justify-content: space-between;
 }
 
 .contact-page_my-contacts {
@@ -229,6 +248,13 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.contact-form__input {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
 .about-page-container {
   display: flex;
   flex-direction: column;
@@ -237,4 +263,9 @@ body {
 
 .about-page__main {
   flex: 1;
+}
+
+.contact-form__input-area {
+  padding: 0.5rem;
+  border-radius: 25px;
 }
