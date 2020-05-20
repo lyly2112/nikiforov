@@ -6,9 +6,8 @@ import Reviews from './Reviews';
 function ServicesPage() {
     return (
         <div className="service-page-container">
-            <div>Services</div>
-            {/* <NavbarServices/> */}
-            <div className="service-page__main">
+            <div className="main-container">
+            <div className="main-container__header">My services</div>
                 <ServicesContainer/>    
             </div>
             <Reviews/>

@@ -1,12 +1,15 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
   color: #4b4b4b;
   height: 100%;
   margin: 0;
 }
 
+/* NAVBAR */
 .navbar-menu {
   display: flex;
   justify-content: center;
@@ -32,6 +35,8 @@ body {
   color: #4b4b4b;
   text-decoration: none;
 }
+
+/* CONTACT */
 
 .contact-button__text {
   color: white;
@@ -59,11 +64,6 @@ body {
     min-height: 100vh;
 }
 
-.home-page__main {
-  display: flex;
-  flex: 1;
-}
-
 .home-page__intro-container {
   display: flex;
   flex-direction: column;
@@ -78,6 +78,7 @@ body {
   height: 10rem;
   justify-content: space-evenly;
 }
+
 .gallery__elem {
   display: flex;
   min-width: 10rem;
@@ -162,37 +163,19 @@ body {
   color: #cdcdcd;
   text-align: center;
   font-size: 1rem;
-  }
+}
 
-  .service-page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
+.service-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-  .service-page__main {
-    display: flex;
-    margin: auto;
-    width: 60rem;
-    flex: 1;
-    flex-direction: row;
-    background-color: pink;
-    justify-content: center;
-    justify-content: space-between;
-  }
-
-  .services-page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .services-container_header{
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 1.4;
-    margin-bottom: 1rem;
-  }
+.services-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .services-list {
   display: flex;
@@ -203,31 +186,33 @@ body {
   display: flex;
   flex-direction: row;
 }
-  .service {
-    display: flex;
-    padding: 0 1rem 0 1rem;
-    justify-content: flex-start;
-    margin: auto;
-    flex-direction: row;
-  }
 
-  .service_desription {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 0 auto;
+.service {
+  display: flex;
+  padding: 0 1rem 0 1rem;
+  justify-content: flex-start;
+  margin: auto;
+  flex-direction: row;
+}
+
+.service_desription {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
 
 
-  }
-  .service__header {
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 auto;
-    font-size: 1rem;
-    font-weight: 900 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 1.5px !important;
-    font-family: 'Lato', sans-serif !important;
+}
+
+.service__header {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  font-family: 'Lato', sans-serif !important;
 }
 
 
@@ -237,31 +222,44 @@ body {
   min-height: 100vh;
 }
 
-.contact-page__main {
+.main-container {
   display: flex;
   margin: auto;
-  width: 60rem;
+  width: 70rem;
   flex: 1;
-  flex-direction: row;
-  background-color: pink;
-  justify-content: center;
-  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  justify-content: flex-start;
 }
 
-.contact-page_my-contacts {
+.main-container__header {
+  justify-content: flex-start;
+  text-align: start;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+  font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+}
+
+.main-container__inner-wrap{
   display: flex;
+  flex-direction: row;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
+  text-align: start;
 }
 
-.contact-form__input {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-}
+/* .contact-form__input {
+  width: 100%;
+} */
 
 .about-page-container {
   display: flex;
@@ -269,17 +267,23 @@ body {
   min-height: 100vh;
 }
 
-.about-page__main {
+
+.main-container__column {
   display: flex;
-    margin: auto;
-    width: 60rem;
-    flex: 1;
-    flex-direction: row;
-    background-color: pink;
-    justify-content: center;
-    justify-content: space-between;
+  flex-direction: column;
+  width: 30rem;
 }
 
-.contact-form__input-area {
-  padding: 0.5rem;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__input {
+  width: 100%;
 }

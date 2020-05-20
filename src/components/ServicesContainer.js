@@ -7,8 +7,8 @@ function ServicesContainer() {
     return (
         <div className="services-page-container">
             <div className="services-page__main"></div>
-            <p className="services-container_header">Cum sociis natoque 
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            <p className="services-container_header">Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
             <div className="services-list">
                 <div className="services-list_row">
@@ -18,8 +18,8 @@ function ServicesContainer() {
                         </div>
                         <div className="service_desription">
                             <h6 className="service__header">Photography</h6>
-                            <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus 
-                                dolor auctor. Cras mattis consectetur purus sit 
+                            <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus
+                            dolor auctor. Cras mattis consectetur purus sit
                                 amet fermentum.</p>
                         </div>
                     </div>
@@ -29,8 +29,8 @@ function ServicesContainer() {
                         </div>
                         <div className="service_desription">
                             <h6 className="service__header">MOTION VIDEO</h6>
-                            <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus 
-                                dolor auctor. Cras mattis consectetur purus sit 
+                            <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus
+                            dolor auctor. Cras mattis consectetur purus sit
                                 amet fermentum.</p>
                         </div>
                     </div>

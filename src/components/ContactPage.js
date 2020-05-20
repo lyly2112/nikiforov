@@ -3,32 +3,32 @@ import React from 'react';
 function ContactPage(){
     return (
         <div className="contact-page-container">
-            
-            {/* <NavbarServices/> */}
-            <div className="contact-page__main">
+          <div className="main-container">
+            <h2 className="main-container__header">Contact me</h2>
+            <div className="main-container__inner-wrap">
+              <div className="main-container__column">
                 <div className="contact-form">
-                    <form className="contact-form__input">
-  <label className="contact-form__input-area">
-    <input type="text" name="name" placeholder="Your name" />
-  </label>
-  <label className="contact-form__input-area">
-    <input type="email" name="email" placeholder="Your email" />
-  </label>
-  <label className="contact-form__input-area">
-    <input type="tel" name="phone" placeholder="Your phone number" />
-  </label>
-  <label className="contact-form__input-area">
-    <input type="text" name="comments" placeholder="Type your message here" />
-  </label>
-</form>
-
-                    <div className="send-button">Send</div>
+                  <form className="contact-form__form">
+                    {/* <label for="contact-form__name" className="contact-form__input-area">Name</label> */}
+                    <input className="contact-form__input" type="text" name="name" placeholder="Your name" />
+                    {/* <label for="contact-form__email" className="contact-form__input-area">Email</label> */}
+                    <input className="contact-form__input" type="email" name="email" placeholder="Your email" />
+                    {/* <label for="contact-form__phone" className="contact-form__input-area">Phone</label> */}
+                    <input className="contact-form__input" type="tel" name="phone" placeholder="Your phone number" />
+                    {/* <label for="contact-form__message" className="contact-form__input-area">Message</label> */}
+                    <textarea className="contact-form__input" rows="6" type="message" name="comments" placeholder="Type your message here" />
+                  </form>
+                  <div className="send-button">Send</div>
                 </div>
-
-                
-            <div className="contact-page_my-contacts">Seattle, WA</div>
+              </div>
+              <div className="main-container__column">
+                <div className="contact-page_my-contacts">
+                  <p>Seattle, WA</p>
+                  <p>(972) 480-2509</p>
+                </div>
+              </div>
             </div>
-            {/* <Footer/> */}
+          </div>
         </div>
     )
 }
