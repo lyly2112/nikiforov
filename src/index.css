@@ -154,6 +154,11 @@ body {
   cursor: pointer;
   margin: auto;
   text-align: center;
+  opacity: 0.5;
+}
+
+.send-button:hover {
+  opacity: 1;
 }
 
 .footer {
@@ -270,11 +275,16 @@ body {
   display: flex;
   flex-direction: column;
   width: 30rem;
+  justify-content: start;
+  align-items: start;
+
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
+  width: 100%;
+
 }
 
 .contact-form__form {
@@ -283,8 +293,13 @@ body {
 }
 
 .contact-form__input {
-  width: 100%;
-  padding: 1rem;
+  border-radius: 3px;
   margin-bottom: 1rem;
-  border-radius: 5px;
+  height: 2rem;
+}
+
+.contact-form__message {
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  height: 6rem;
 }

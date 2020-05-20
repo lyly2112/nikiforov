@@ -16,7 +16,7 @@ function ContactPage(){
                     {/* <label for="contact-form__phone" className="contact-form__input-area">Phone</label> */}
                     <input className="contact-form__input" type="tel" name="phone" placeholder="Your phone number" />
                     {/* <label for="contact-form__message" className="contact-form__input-area">Message</label> */}
-                    <textarea className="contact-form__input" rows="6" type="message" name="comments" placeholder="Type your message here" />
+                    <textarea className="contact-form__message" rows="6" type="message" name="comments" placeholder="Type your message here" />
                   </form>
                   <div className="send-button">Send</div>
                 </div>
@@ -25,6 +25,7 @@ function ContactPage(){
                 <div className="contact-page_my-contacts">
                   <p>Seattle, WA</p>
                   <p>(972) 480-2509</p>
+                  <p>hoopaloo88@gmail.com</p>
                 </div>
               </div>
             </div>
