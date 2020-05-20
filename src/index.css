@@ -41,6 +41,7 @@ body {
 .contact-button__text {
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 .contact-button__text:hover {
@@ -152,6 +153,7 @@ body {
   touch-action: manipulation;
   cursor: pointer;
   margin: auto;
+  text-align: center;
 }
 
 .footer {
@@ -257,10 +259,6 @@ body {
   text-align: start;
 }
 
-/* .contact-form__input {
-  width: 100%;
-} */
-
 .about-page-container {
   display: flex;
   flex-direction: column;
@@ -286,4 +284,7 @@ body {
 
 .contact-form__input {
   width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
 }
