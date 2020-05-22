@@ -16,7 +16,6 @@ function AboutPage(){
                 </div>
                 <WorkWithMe/>
             </div>
-            {/* <Footer/> */}
         </div>
     )
 }
