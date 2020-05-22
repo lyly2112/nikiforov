@@ -9,8 +9,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
   color: #4b4b4b;
-  height: 100%;
   margin: 0;
+  height: 100%;
 }
 
 /* NAVBAR */
@@ -24,10 +24,9 @@ body {
   letter-spacing: 1.5px !important;
   font-family: 'Lato', sans-serif !important;
   font-family: lato;
-  height: 5rem;
+  height: 10vh;
   width: 100%;
   align-items: center;
-  flex-basis: 25%;
 }
 
 .navbar-menu__text {
@@ -63,10 +62,7 @@ body {
   border-bottom: 3px solid;
 }
 
-.home-page-container {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .home-page__intro-container {
   display: flex;
@@ -167,24 +163,12 @@ body {
 .footer {
   display: flex;
   background:#1e1e1e url(/home/lil/webdiv/nikiforov/src/footerBackground.png) repeat;
-  height: 6rem;
+  height: 10vh;
   justify-content: center;
   align-items: center;
   color: #cdcdcd;
   text-align: center;
   font-size: 1rem;
-}
-
-.service-page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.services-page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 .services-list {
@@ -225,13 +209,6 @@ body {
   font-family: 'Lato', sans-serif !important;
 }
 
-
-.contact-page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 .main-container {
   display: flex;
   margin: auto;
@@ -239,7 +216,7 @@ body {
   flex-direction: column;
   background-color: white;
   justify-content: flex-start;
-  height: 100vh;
+  height: 90vh;
 }
 
 .main-container__header {
@@ -266,13 +243,6 @@ body {
   flex-direction: column;
   text-align: start;
 }
-
-.about-page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 
 .main-container__column {
   display: flex;
@@ -312,6 +282,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 100%;
-  min-width: 100%;
+flex-grow: 1;
+}
+
+.bla {
+  background-color: #34b9d7;
+flex-grow: 1;
 }

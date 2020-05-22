@@ -2,7 +2,6 @@ import React from 'react';
 
 function ContactPage(){
     return (
-        <div className="contact-page-container">
           <div className="main-container">
             <h2 className="main-container__header">Contact me</h2>
             <div className="main-container__inner-wrap">
@@ -30,7 +29,6 @@ function ContactPage(){
               </div>
             </div>
           </div>
-        </div>
     )
 }
 

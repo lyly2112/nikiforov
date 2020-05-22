@@ -5,8 +5,7 @@ import video from '../images/video.svg';
 
 function ServicesContainer() {
     return (
-        <div className="services-page-container">
-            <div className="services-page__main"></div>
+        <div className="main-container">
             <p className="services-container_header">Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             Maecenas sed diam eget risus varius blandit sit amet non magna.</p>

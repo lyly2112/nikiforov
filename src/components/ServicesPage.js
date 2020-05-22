@@ -5,13 +5,11 @@ import Reviews from './Reviews';
 
 function ServicesPage() {
     return (
-        <div className="service-page-container">
             <div className="main-container">
             <div className="main-container__header">My services</div>
                 <ServicesContainer/>    
-            </div>
+            
             <Reviews/>
-            {/* <Footer/> */}
         </div>
     )
 }
