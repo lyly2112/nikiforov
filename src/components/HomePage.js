@@ -7,9 +7,8 @@ function HomePage() {
 <div className="home-page-wrap">
       <div className="home-page__main-photo">
         <div className="home-page__intro-container">
-            <p>Sergei Nikiforov / freelance photographer</p>
-            
-        </div>
+            <p>Sergei Nikiforov / freelance photographer</p>     
+      </div>
       
 
       
