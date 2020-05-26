@@ -13,8 +13,11 @@ function HomePage() {
 
       
     </div>
+    <div className="home-page-bottom">
     <Gallery/>
         <WorkWithMe/>
+    </div>
+    
         </div>
     )
 }

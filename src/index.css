@@ -40,7 +40,7 @@ html, body {
 /* CONTACT */
 
 .contact-button__text {
-  color: white;
+  color: black;
   text-decoration: none;
   text-align: center;
   text-decoration: none;
@@ -52,7 +52,7 @@ html, body {
 }
 
 .contact-button:hover {
-  opacity: 1;
+  background-color: black
 }
 .navbar-menu__element {
   padding-left: 1rem;
@@ -104,7 +104,9 @@ html, body {
 .work-with-me-container {
   display: flex;
   flex-direction: column;
-  padding: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  width: 70rem;
   text-align: center; 
   margin: auto;
   justify-content: center;
@@ -127,12 +129,12 @@ html, body {
 
 .contact-button {
   width: 6rem;
-  background: #34b9d7;
+  background-color: white;
   color: white;
   font-size: 0.5rem;
   letter-spacing: 1.5px;
   padding: 0.7rem;
-  border-radius: 25px;
+  border-radius: 5px;
   font-weight: 900;
   text-shadow: none;
   transition: all 150ms ease-in;
@@ -299,7 +301,6 @@ html, body {
   align-items: center;
   justify-content: center;
   margin: auto;
-
 }
 
 .home-page-wrap {
@@ -308,4 +309,6 @@ html, body {
 }
 
 .home-page-bottom {
+  height: 90vh;
 }
+
