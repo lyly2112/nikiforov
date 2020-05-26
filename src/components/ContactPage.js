@@ -26,7 +26,7 @@ function ContactPage(){
                   <p>Seattle, WA</p>
                   <p>(972) 480-2509</p>
                   <p>hoopaloo88@gmail.com</p>
-<SimpleMap />
+                  <SimpleMap />
               </div>
             </div>
           </div>
