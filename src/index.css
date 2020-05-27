@@ -1,3 +1,8 @@
+import $ from "jquery"
+$animate: all 0.2s ease-in-out;
+
+
+
 * {
   box-sizing: border-box;
 }  
@@ -63,7 +68,27 @@ html, body {
   padding: 1rem;
   border-bottom: 3px solid;
   border-color: #cccccc;
+  transition: $animate;
+      position: relative;
+      &:before{ left: 50%;}
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 0px;
+        height: 5px;
+        margin: 5px 0 0;
+        transition: $animate;
+        transition-duration: 0.75s;
+        opacity: 0;
+        background-color: darken(orange,5%);
+        right: 50%;
+      }
+      
 }
+
+
+
 
 .home-page__intro-container {
   font-size: 0.8rem;
@@ -182,35 +207,27 @@ html, body {
   border-top: 1px solid #E1E0E1;
 }
 
+.services-container_header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .services-list {
   display: flex;
-  flex-direction: column;
-}
-
-.services-list_row {
-  display: flex;
   flex-direction: row;
-}
-
-.service {
-  display: flex;
-  padding: 0 1rem 0 1rem;
-  justify-content: flex-start;
-  margin: auto;
-  flex-direction: row;
-}
-
-.service_desription {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  width: 70%;
+  justify-content: space-evenly;
   margin: 0 auto;
+}
 
-
+.services-list_column {
+  display: flex;
+  flex-direction: column;
 }
 
 .service__header {
   display: flex;
+  padding: 0.5rem;
   justify-content: flex-start;
   margin: 0 auto;
   font-size: 1rem;
@@ -220,6 +237,10 @@ html, body {
   font-family: 'Prata', serif !important;
 }
 
+.reviews-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem
+}
 .main-container {
   display: flex;
   margin: auto;
@@ -310,3 +331,7 @@ html, body {
   height: 90vh;
 }
 
+.reviews {
+  display: flex;
+  flex-direction: row;
+}

@@ -7,9 +7,8 @@ function ServicesPage() {
     return (
             <div className="main-container">
             <div className="main-container__header">My services</div>
-                <ServicesContainer/>    
-            
-            <Reviews/>
+                <ServicesContainer/>
+                <Reviews/>
         </div>
     )
 }

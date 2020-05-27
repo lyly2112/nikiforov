@@ -1,5 +1,5 @@
 import React from 'react';
-import SimpleMap from './SimpleMap';
+{/*import SimpleMap from './SimpleMap';*/}
 
 function ContactPage(){
     return (
@@ -26,7 +26,8 @@ function ContactPage(){
                   <p>Seattle, WA</p>
                   <p>(972) 480-2509</p>
                   <p>hoopaloo88@gmail.com</p>
-                  <SimpleMap />
+                  {/* <SimpleMap/> */}
+                  
               </div>
             </div>
           </div>
