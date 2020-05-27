@@ -13,7 +13,7 @@ function ServicesContainer() {
                         </div>
                         <div className="services-list_column">
                             <h6 className="service__header">Retouching</h6>
-                            <h6 className="service__header">Printing</h6>
+                            <h6 className="service__header">Food photography</h6>
                         </div>
                     </div>
 

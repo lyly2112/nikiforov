@@ -1,20 +1,11 @@
-import $ from "jquery"
-$animate: all 0.2s ease-in-out;
-
-
-
-* {
-  box-sizing: border-box;
-}  
-
 html, body {
   display: flex;
   flex-direction: column;
-  /* font-family: serif; */
   font-family: 'Prata', serif;
   color: #4b4b4b;
   margin: 0;
   height: 100%;
+  box-sizing: border-box;
 }
 
 /* NAVBAR */
@@ -44,20 +35,10 @@ html, body {
 
 /* CONTACT */
 
-.contact-button__text {
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  text-decoration: none;
-}
-
-.contact-button__text:hover {
-  color: white;
-  text-decoration: none;
-}
 
 .contact-button:hover {
-  background-color: black
+  background-color: black;
+  color: white;
 }
 .navbar-menu__element {
   padding-left: 1rem;
@@ -127,19 +108,18 @@ html, body {
 .work-with-me-container {
   display: flex;
   flex-direction: column;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   width: 70rem;
   text-align: center; 
   margin: auto;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: normal;
   font-family: 'Prata', serif;
 }
 
 .work-with-me__header {
-  font-size: 0.7rem;
   font-weight: 900 !important;
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
@@ -152,12 +132,13 @@ html, body {
 
 .contact-button {
   width: 6rem;
+  border: 1px solid black;
   background-color: white;
-  color: white;
+  color: black;
   font-size: 0.5rem;
   letter-spacing: 1.5px;
   padding: 0.7rem;
-  border-radius: 5px;
+  border-radius: 2px;
   font-weight: 900;
   text-shadow: none;
   transition: all 150ms ease-in;
@@ -166,19 +147,20 @@ html, body {
   touch-action: manipulation;
   cursor: pointer;
   margin: auto;
-  opacity: 0.5;
   text-decoration: none;
-
+  text-align: center;
 }
+
 
 .send-button {
   width: 6rem;
-  background: #34b9d7;
-  color: white;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
   font-size: 0.5rem;
   letter-spacing: 1.5px;
   padding: 0.7rem;
-  border-radius: 25px;
+  border-radius: 2px;
   font-weight: 900;
   text-shadow: none;
   transition: all 150ms ease-in;
@@ -187,28 +169,34 @@ html, body {
   touch-action: manipulation;
   cursor: pointer;
   margin: auto;
+  text-decoration: none;
   text-align: center;
-  opacity: 0.5;
+
 }
 
 .send-button:hover {
-  opacity: 1;
+  background-color: black;
+  color: white;
 }
 
 .footer {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   height: 10vh;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
   border-top: 1px solid #E1E0E1;
 }
 
+.footer__signature__column {
+  margin: 0 5rem 0 5rem;
+}
+
 .services-container_header {
-  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -230,6 +218,7 @@ html, body {
   padding: 0.5rem;
   justify-content: flex-start;
   margin: 0 auto;
+  padding: 1rem;
   font-size: 1rem;
   font-weight: 900 !important;
   text-transform: uppercase !important;
@@ -241,6 +230,21 @@ html, body {
   margin-top: 2rem;
   margin-bottom: 2rem
 }
+
+.reviews-header {
+  margin: 1rem;
+}
+
+.review {
+  margin: 1rem;
+}
+
+.review__text-container{
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: left;
+}
+
 .main-container {
   display: flex;
   margin: auto;
@@ -249,6 +253,7 @@ html, body {
   background-color: white;
   justify-content: flex-start;
   height: 90vh;
+  align-content: space-between;
 }
 
 .main-container__header {
@@ -257,7 +262,7 @@ html, body {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   margin-top: 1rem;
 
   font-weight: 900 !important;
@@ -268,8 +273,12 @@ html, body {
 .main-container__inner-wrap{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
+.contact-page_my-contacts {
+  text-align: left;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -334,4 +343,21 @@ html, body {
 .reviews {
   display: flex;
   flex-direction: row;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+}
+.photo {
+  width: 50%;
+  object-fit:cover;
+}
+
+.bio {
+  padding: 0 0 0 3rem;
+  justify-content: left;
+  text-align: left;
 }
