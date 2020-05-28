@@ -6,6 +6,7 @@ html, body {
   margin: 0;
   height: 100%;
   box-sizing: border-box;
+  font-size: 1rem;
 }
 
 /* NAVBAR */
@@ -24,12 +25,12 @@ html, body {
 }
 
 .navbar-menu__text {
-  color:  #bfbfbf;
+  color: #6E6E6E;
   text-decoration: none;
 }
 
 .navbar-menu__text:hover {
-  color: #cccccc;
+  color: #6E6E6E;
   text-decoration: none;
 }
 
@@ -47,25 +48,7 @@ html, body {
 
 .navbar-menu__element:hover {
   padding: 1rem;
-  border-bottom: 3px solid;
-  border-color: #cccccc;
-  transition: $animate;
-      position: relative;
-      &:before{ left: 50%;}
-      &:after {
-        content: "";
-        position: absolute;
-        bottom: -10px;
-        width: 0px;
-        height: 5px;
-        margin: 5px 0 0;
-        transition: $animate;
-        transition-duration: 0.75s;
-        opacity: 0;
-        background-color: darken(orange,5%);
-        right: 50%;
-      }
-      
+  border-bottom: 3px solid;     
 }
 
 
@@ -279,6 +262,10 @@ html, body {
 .contact-page_my-contacts {
   text-align: left;
 }
+.contact-page_my-contacts > p {
+  margin-top: 0;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -361,3 +348,22 @@ html, body {
   justify-content: left;
   text-align: left;
 }
+
+.social-media {
+width: 2rem;
+margin-right: 1rem;
+opacity: 0.6;
+}
+
+.social-media:hover {
+  opacity: 1;
+
+}
+
+.map {
+  width: 15rem;
+  height: 15rem;
+border: none;
+}
+
+
