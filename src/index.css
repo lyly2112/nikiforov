@@ -293,14 +293,16 @@ html, body {
   flex-direction: column;
 }
 
-.contact-form__input {
-  border-radius: 3px;
-  margin-bottom: 1rem;
-  height: 2rem;
+.contact-form__form > *  {
+box-shadow: none;
+height: 2rem;
+margin-bottom: 1rem;
+border-radius: 2px;
+padding-left: 0.5rem;
 }
 
 .contact-form__message {
-  border-radius: 3px;
+  border-radius: 1px;
   margin-bottom: 1rem;
   height: 6rem;
 }
