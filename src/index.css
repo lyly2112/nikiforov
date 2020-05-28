@@ -25,6 +25,12 @@ html, body {
   align-items: center;
 }
 
+.logo{
+margin-right: 20rem;
+position: absolute;
+left: 5rem;
+}
+
 .navbar-menu__text {
   color: #6E6E6E;
   text-decoration: none;
@@ -45,6 +51,7 @@ html, body {
 .navbar-menu__element {
   padding-left: 1rem;
   padding-right: 1rem;
+  display: flex;
 }
 
 .navbar-menu__element:hover {
@@ -329,6 +336,7 @@ padding-left: 0.5rem;
 }
 
 .home-page-bottom {
+  height: 90vh;
 }
 
 .reviews {

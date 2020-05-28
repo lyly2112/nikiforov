@@ -2,6 +2,7 @@ import React from 'react';
 import instagram from '../images/instagram.svg';
 import youtube from '../images/youtube.svg';
 import { ExternalLink } from 'react-external-link';
+import ReactContactForm from 'react-mail-form';
 
 
 
