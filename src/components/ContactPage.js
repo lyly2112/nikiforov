@@ -1,22 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import instagram from '../images/instagram.svg';
 import youtube from '../images/youtube.svg';
 import { ExternalLink } from 'react-external-link';
-{/* import ReactContactForm from 'react-mail-form';
- */}
-
+import { NotificationManager, NotificationContainer } from 'react-notifications';
 
 function ContactPage() {
-  {/*
+
+  const [contactFormName, setContactFormName] = useState("");
   const [contactFormPhone, setContactFormPhone] = useState("");
   const [contactFormEmail, setContactFormEmail] = useState("");
   const [contactFormMessage, setContactFormMessage] = useState("");
-   */}
-  const [contactFormName, setContactFormName] = useState("");
-
-
-  const test = (e) => { console.log(e) };
-
 
   const createNotification = (type) => {
     console.log(type)
@@ -41,7 +34,7 @@ function ContactPage() {
     const message = contactFormMessage;
     const formValues = { name, phone, email, message };
     console.log('formValues => ', formValues);
-    const templateId = 'contact-us_zxl0pk0o';
+    const templateId = 'template_vsKyigXY';
     sendFeedback(templateId, formValues);
   }
 
@@ -65,12 +58,12 @@ function ContactPage() {
         <div className="main-container__column">
           <div className="contact-form">
             <form className="contact-form__form">
-              <input className="contact-form__input" type="text" name="name" placeholder="Your name" onChange={e => test(e.target.value)} />
-              <input className="contact-form__input" type="email" name="email" placeholder="Your email" />
-              <input className="contact-form__input" type="tel" name="phone" placeholder="Your phone number" />
-              <textarea className="contact-form__message" rows="6" type="message" name="comments" placeholder="Type your message here" />
+              <input className="contact-form__input" type="text" name="name" placeholder="Your name" onChange={e => contactFormName(e.target.value)} />
+              <input className="contact-form__input" type="email" name="email" placeholder="Your email" onChange={e => contactFormEmail(e.target.value)}/>
+              <input className="contact-form__input" type="tel" name="phone" placeholder="Your phone number" onChange={e => contactFormPhone(e.target.value)} />
+              <textarea className="contact-form__message" rows="6" type="message" name="comments" placeholder="Type your message here" onChange={e => setContactFormEmail(e.target.value)} />
             </form>
-            <div className="send-button">Send</div>
+            <div className="send-button" onClick={ () => handleSubmit() } >Send</div>
           </div>
         </div>
         <div className="main-container__column">

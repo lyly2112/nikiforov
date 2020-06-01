@@ -1,6 +1,6 @@
 @import 'reset';
 @import 'components';
-@import 'contact-button';
+@import './css/components/contact-button';
 @import 'footer';
 @import 'gallery';
 @import 'main-container';
@@ -13,3 +13,8 @@
 @import 'contact-page';
 @import 'home-page';
 @import 'services-page';
+
+.App {
+    display:flex;
+}
+
