@@ -1,0 +1,20 @@
+
+.bio-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  
+  }
+  .avatar {
+    width: 50%;
+    object-fit:cover;
+  }
+  
+  .bio {
+    padding: 0 0 0 3rem;
+    justify-content: left;
+    text-align: left;
+  }
+  
+  
+  

@@ -1,0 +1,24 @@
+.work-with-me-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 70rem;
+    text-align: center; 
+    margin: auto;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: 'Prata', serif;
+  }
+  
+  .work-with-me__header {
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    padding: 0.5rem;
+  }
+  
+  .work-with-me__paragraph {
+    padding: 0.5rem;
+  }
