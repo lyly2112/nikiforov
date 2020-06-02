@@ -1,8 +1,11 @@
+.home-page-wrap {
+height: 100%;
+}
 
 .home-page__main-photo {
     display: flex;
     background-image: url(../images/rainbow.jpg);
-    height: 90vh;
+    height: 95vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,21 +15,24 @@
     margin: auto;
   }
   
-  .home-page-wrap {
-    height: 100%;
-    flex: 1 0 auto;
-  
+  .home-page__intro-container {
+    font-size: 0.8rem;
+    font-weight: 900 !important;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
   }
-  
+
   .home-page-bottom {
-    height: 90vh;
+    min-height: 95vh;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: white;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex: 1;
+    box-sizing: border-box;
   }
 
 
-.home-page__intro-container {
-  font-size: 0.8rem;
-  font-weight: 900 !important;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-}

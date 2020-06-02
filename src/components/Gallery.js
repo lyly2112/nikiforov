@@ -1,12 +1,17 @@
 import React from 'react';
+ 
 
 function Gallery() {
     return (
         <div className="gallery-container">   
             <div className="gallery__elem">
-                <div className="gallery__elem__photo">        
-                </div>
-                <div className="gallery__elem__name">Landscape</div>
+ <div className="gallery__elem__photo">
+                     <div className="gallery__elem__name">Landscape</div>
+
+ </div>
+ 
+
+                
             </div>
             <div className="gallery__elem">
                 <div className="photo">        

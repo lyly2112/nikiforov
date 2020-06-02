@@ -1,8 +1,10 @@
 .contact-page_my-contacts {
-  text-align: left; }
+  text-align: left;
+  margin: 0 0 5rem 0; }
 
 .contact-page_my-contacts > p {
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 1rem; }
 
 .contact-form {
   display: flex;
@@ -27,8 +29,8 @@
   height: 6rem; }
 
 .map {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   border: none; }
 
 /*# sourceMappingURL=contact-page.css.map */

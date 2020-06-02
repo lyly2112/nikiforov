@@ -165,6 +165,17 @@ body, p {
 @media only screen and (min-width: 768px) {
   .rounded-desktop {
     border-radius: 6px; } }
+html, body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Prata', serif;
+  color: #4b4b4b;
+  margin: 0;
+  height: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-size: 1rem; }
+
 .contact-button:hover {
   background-color: black;
   color: white; }
@@ -176,7 +187,7 @@ body, p {
   color: black;
   font-size: 0.5rem;
   letter-spacing: 1.5px;
-  padding: 0.7rem;
+  padding: 1rem;
   border-radius: 2px;
   font-weight: 900;
   text-shadow: none;
@@ -193,13 +204,15 @@ body, p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 5rem;
   align-items: center;
   text-align: center;
   font-size: 0.6rem;
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
-  border-top: 1px solid #E1E0E1; }
+  border-top: 1px solid #E1E0E1;
+  padding: 1rem 0 1rem 0;
+  height: 5rem;
+  margin: auto; }
 
 .footer__signature__column {
   margin: 0 4rem 0 4rem; }
@@ -207,34 +220,44 @@ body, p {
 .gallery-container {
   display: flex;
   flex-wrap: nowrap;
-  height: 10rem;
+  height: 70%;
+  padding: 5rem 0 5rem 0;
   justify-content: space-evenly; }
 
 .gallery__elem {
   display: flex;
-  min-width: 10rem;
+  min-width: 30%;
   vertical-align: bottom;
   justify-content: flex-start;
   align-content: flex-end;
   align-items: flex-end; }
 
 .gallery__elem__photo {
-  max-width: auto;
-  max-height: auto; }
+  background-image: url(../images/fog.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .gallery__elem__name {
-  padding: 1rem; }
+  width: 70%;
+  padding: 1rem;
+  color: white;
+  background-color: black;
+  align-items: flex-end; }
 
 .main-container {
   display: flex;
   margin: auto;
-  width: 70rem;
-  min-height: 90vh;
+  width: 70%;
+  min-height: 95vh;
   flex-direction: column;
   background-color: white;
   justify-content: flex-start;
   align-content: space-between;
-  flex: 1; }
+  flex: 1;
+  box-sizing: border-box; }
 
 .main-container__header {
   justify-content: flex-start;
@@ -258,7 +281,8 @@ body, p {
   flex-direction: column;
   width: 30rem;
   justify-content: start;
-  align-items: start; }
+  align-items: start;
+  margin: 1rem; }
 
 .navbar-menu {
   display: flex;
@@ -291,9 +315,8 @@ body, p {
   border-bottom: 3px solid; }
 
 .logo {
-  margin-right: 20rem;
-  position: absolute;
-  left: 5rem; }
+  margin-right: 5rem;
+  margin-left: 20rem; }
 
 .reviews {
   display: flex;
@@ -304,7 +327,8 @@ body, p {
   margin-bottom: 2rem; }
 
 .reviews-header {
-  margin: 1rem; }
+  margin: 1rem;
+  text-align: center; }
 
 .review {
   margin: 1rem; }
@@ -351,7 +375,7 @@ body, p {
   flex-direction: column;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  width: 70rem;
+  width: 70%;
   text-align: center;
   margin: auto;
   justify-content: center;
@@ -363,19 +387,18 @@ body, p {
   font-weight: 900 !important;
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
-  padding: 0.5rem; }
+  padding: 1rem; }
 
 .work-with-me__paragraph {
-  padding: 0.5rem; }
+  padding: 1rem; }
 
 .bio-container {
   display: flex;
-  flex-direction: row;
-  flex: 1; }
+  flex-direction: row; }
 
 .avatar {
-  width: 50%;
-  object-fit: cover; }
+  object-fit: cover;
+  width: 40%; }
 
 .bio {
   padding: 0 0 0 3rem;
@@ -383,10 +406,12 @@ body, p {
   text-align: left; }
 
 .contact-page_my-contacts {
-  text-align: left; }
+  text-align: left;
+  margin: 0 0 5rem 0; }
 
 .contact-page_my-contacts > p {
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 1rem; }
 
 .contact-form {
   display: flex;
@@ -411,14 +436,17 @@ body, p {
   height: 6rem; }
 
 .map {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   border: none; }
+
+.home-page-wrap {
+  height: 100%; }
 
 .home-page__main-photo {
   display: flex;
   background-image: url(../images/rainbow.jpg);
-  height: 90vh;
+  height: 95vh;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -427,19 +455,23 @@ body, p {
   justify-content: center;
   margin: auto; }
 
-.home-page-wrap {
-  height: 100%;
-  flex: 1 0 auto; }
-
-.home-page-bottom {
-  height: 90vh; }
-
 .home-page__intro-container {
   font-size: 0.8rem;
   font-weight: 900 !important;
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.2em; }
+
+.home-page-bottom {
+  min-height: 95vh;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background-color: white;
+  justify-content: flex-start;
+  align-content: space-between;
+  flex: 1;
+  box-sizing: border-box; }
 
 .services-container_header {
   margin-bottom: 2rem; }

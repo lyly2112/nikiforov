@@ -1,13 +1,11 @@
 
 .bio-container {
     display: flex;
-    flex-direction: row;
-    flex: 1;
-  
+    flex-direction: row;  
   }
   .avatar {
-    width: 50%;
     object-fit:cover;
+    width: 40%;
   }
   
   .bio {
@@ -15,6 +13,3 @@
     justify-content: left;
     text-align: left;
   }
-  
-  
-  

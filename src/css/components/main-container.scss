@@ -1,13 +1,14 @@
 .main-container {
     display: flex;
     margin: auto;
-    width: 70rem;
-    min-height: 90vh;
+    width: 70%;
+    min-height: 95vh;
     flex-direction: column;
     background-color: white;
     justify-content: flex-start;
     align-content: space-between;
     flex: 1;
+    box-sizing: border-box;
   }
   
   .main-container__header {
@@ -37,5 +38,6 @@
   width: 30rem;
   justify-content: start;
   align-items: start;
+  margin: 1rem;
 
 }
