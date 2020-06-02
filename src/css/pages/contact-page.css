@@ -1,39 +1,34 @@
 .contact-page_my-contacts {
-  text-align: left;
-}
+  text-align: left; }
 
 .contact-page_my-contacts > p {
-  margin-top: 0;
-}
-  
+  margin-top: 0; }
+
 .contact-form {
   display: flex;
   flex-direction: column;
   text-align: start;
-  width: 100%;
-}
+  width: 100%; }
 
 .contact-form__form {
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
-.contact-form__form > *  {
+.contact-form__form > * {
   box-shadow: none;
   height: 2rem;
   margin-bottom: 1rem;
   border-radius: 2px;
-  padding-left: 0.5rem;
-}
+  padding-left: 0.5rem; }
 
 .contact-form__message {
   border-radius: 1px;
   margin-bottom: 1rem;
-  height: 6rem;
-}
+  height: 6rem; }
 
 .map {
   width: 15rem;
   height: 15rem;
-  border: none;
-}
+  border: none; }
+
+/*# sourceMappingURL=contact-page.css.map */

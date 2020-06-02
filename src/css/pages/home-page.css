@@ -1,0 +1,27 @@
+.home-page__main-photo {
+  display: flex;
+  background-image: url(../images/rainbow.jpg);
+  height: 90vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align-items: center;
+  justify-content: center;
+  margin: auto; }
+
+.home-page-wrap {
+  height: 100%;
+  flex: 1 0 auto; }
+
+.home-page-bottom {
+  height: 90vh; }
+
+.home-page__intro-container {
+  font-size: 0.8rem;
+  font-weight: 900 !important;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2em; }
+
+/*# sourceMappingURL=home-page.css.map */

@@ -1,0 +1,36 @@
+.main-container {
+  display: flex;
+  margin: auto;
+  width: 70rem;
+  min-height: 90vh;
+  flex-direction: column;
+  background-color: white;
+  justify-content: flex-start;
+  align-content: space-between;
+  flex: 1; }
+
+.main-container__header {
+  justify-content: flex-start;
+  text-align: start;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important; }
+
+.main-container__inner-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.main-container__column {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  justify-content: start;
+  align-items: start; }
+
+/*# sourceMappingURL=main-container.css.map */

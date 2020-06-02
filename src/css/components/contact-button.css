@@ -1,8 +1,7 @@
 .contact-button:hover {
   background-color: black;
-  color: white;
-}
-  
+  color: white; }
+
 .contact-button {
   width: 6rem;
   border: 1px solid black;
@@ -21,5 +20,6 @@
   cursor: pointer;
   margin: auto;
   text-decoration: none;
-  text-align: center;
-}
+  text-align: center; }
+
+/*# sourceMappingURL=contact-button.css.map */

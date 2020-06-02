@@ -1,0 +1,20 @@
+.reviews {
+  display: flex;
+  flex-direction: row; }
+
+.reviews-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.reviews-header {
+  margin: 1rem; }
+
+.review {
+  margin: 1rem; }
+
+.review__text-container {
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: left; }
+
+/*# sourceMappingURL=reviews.css.map */

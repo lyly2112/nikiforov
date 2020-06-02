@@ -6,21 +6,11 @@ body, p {
   width: 100%;
   height: auto; }
 
-.img-fluid--no-width {
-  height: auto;
-  max-height: -webkit-fill-available; }
-
 .pointer {
   cursor: pointer; }
 
 .rounded {
   border-radius: 6px; }
-
-#mapDiv > div > div > div:nth-child(10) {
-  display: none !important; }
-
-.directions-card {
-  display: none !important; }
 
 @media only screen and (min-width: 768px) {
   .rounded-desktop {
