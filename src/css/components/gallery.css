@@ -14,7 +14,7 @@
   align-items: flex-end; }
 
 .gallery__elem__photo {
-  background-image: url(../images/fog.jpg);
+  background-image: url();
   height: 100%;
   width: 100%;
   background-size: contain;
