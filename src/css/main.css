@@ -219,33 +219,27 @@ html, body {
 
 .gallery-container {
   display: flex;
-  flex-wrap: nowrap;
-  height: 70%;
+  height: 30rem;
   padding: 5rem 0 5rem 0;
   justify-content: space-evenly; }
 
-.gallery__elem {
-  display: flex;
-  min-width: 30%;
-  vertical-align: bottom;
-  justify-content: flex-start;
-  align-content: flex-end;
-  align-items: flex-end; }
-
-.gallery__elem__photo {
-  background-image: url(../images/fog.jpg);
+.gallery__photo {
   height: 100%;
-  width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+  align-items: flex-end;
+  justify-content: center;
+  margin: auto;
+  flex-grow: 1;
+  flex-direction: column; }
 
-.gallery__elem__name {
+.gallery__name {
   width: 70%;
   padding: 1rem;
   color: white;
   background-color: black;
-  align-items: flex-end; }
+  align-self: flex-end; }
 
 .main-container {
   display: flex;
@@ -472,6 +466,11 @@ html, body {
   align-content: space-between;
   flex: 1;
   box-sizing: border-box; }
+
+.home-page-bottom_intro {
+  margin: 10rem;
+  justify-content: center;
+  text-align: center; }
 
 .services-container_header {
   margin-bottom: 2rem; }

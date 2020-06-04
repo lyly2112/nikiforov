@@ -1,31 +1,27 @@
 
 .gallery-container {
     display: flex;
-    flex-wrap: nowrap;
-    height: 70%;
+    height: 30rem;
     padding: 5rem 0 5rem 0;
     justify-content: space-evenly;
   }
-  
-  .gallery__elem {
-    display: flex;
-    min-width: 30%;
-    vertical-align: bottom;
-    justify-content: flex-start;
-    align-content: flex-end;
-    align-items: flex-end;
-  }
-  
-  .gallery__elem__photo {
-    background-size: contain;
+    
+  .gallery__photo {
+    height: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    align-items: flex-end;
+    justify-content: center;
+    margin: auto;
+    flex-grow: 1;
+    flex-direction: column;
   }
   
-  .gallery__elem__name{
+  .gallery__name{
     width: 70%;
     padding: 1rem;
     color: white;
     background-color: black;
-    align-items: flex-end;  
+    align-self: flex-end;
   }

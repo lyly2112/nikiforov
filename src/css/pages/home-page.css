@@ -31,4 +31,9 @@
   flex: 1;
   box-sizing: border-box; }
 
+.home-page-bottom_intro {
+  margin: 10rem;
+  justify-content: center;
+  text-align: center; }
+
 /*# sourceMappingURL=home-page.css.map */

@@ -1,29 +1,21 @@
 import React from 'react';
- 
+import fog from '../images/fog.jpg';
+import rainbow from '../images/rainbow.jpg';
+
 
 function Gallery() {
     return (
-        <div className="gallery-container">   
-            <div className="gallery__elem">
- <div className="gallery__elem__photo">
-                     <div className="gallery__elem__name">Landscape</div>
-
- </div>
- 
-
-                
-            </div>
-            <div className="gallery__elem">
-                <div className="photo">        
-                 
-            </div>
-                <div className="gallery__elem__name">Street Photography</div>
-            </div>
-            <div className="gallery__elem">
-                <div className="gallery__elem__photo">        
-            </div>
-                <div className="gallery__elem__name">Portrait</div>
-            </div>
+        <div className="gallery-container">
+                <div className="gallery__photo" style={{ backgroundImage: `url(${fog})`}}>
+                <div className="gallery__name">Landscape</div>
+                </div>
+                <div className="gallery__photo" style={{ backgroundImage: `url(${rainbow})`}}>
+                <div className="gallery__name">Landscape</div>
+                </div>
+                <div className="gallery__photo" style={{ backgroundImage: `url(${rainbow})`}}>
+                <div className="gallery__name">Landscape</div>
+                </div>
+            
         </div>
     )
 }
