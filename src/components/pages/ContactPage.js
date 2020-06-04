@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import instagram from '../images/instagram.svg';
-import youtube from '../images/youtube.svg';
+import instagram from '../../images/instagram.svg';
+import youtube from '../../images/youtube.svg';
 import { ExternalLink } from 'react-external-link';
 import { NotificationManager, NotificationContainer } from 'react-notifications';
 
@@ -58,12 +58,12 @@ function ContactPage() {
         <div className="main-container__column">
           <div className="contact-form">
             <form className="contact-form__form">
-              <input className="contact-form__input" type="text" name="name" placeholder="Your name" onChange={e => contactFormName(e.target.value)} />
-              <input className="contact-form__input" type="email" name="email" placeholder="Your email" onChange={e => contactFormEmail(e.target.value)}/>
-              <input className="contact-form__input" type="tel" name="phone" placeholder="Your phone number" onChange={e => contactFormPhone(e.target.value)} />
-              <textarea className="contact-form__message" rows="6" type="message" name="comments" placeholder="Type your message here" onChange={e => setContactFormEmail(e.target.value)} />
+              <input className="contact-form__input" type="text" name="name" placeholder="Your name" onChange={e => setContactFormName(e.target.value)} />
+              <input className="contact-form__input" type="email" name="email" placeholder="Your email" onChange={e => setContactFormEmail(e.target.value)} />
+              <input className="contact-form__input" type="tel" name="phone" placeholder="Your phone number" onChange={e => setContactFormPhone(e.target.value)} />
+              <textarea className="contact-form__message" rows="6" type="message" name="comments" placeholder="Type your message here" onChange={e => setContactFormMessage(e.target.value)} />
             </form>
-            <div className="send-button" onClick={ () => handleSubmit() } >Send</div>
+            <div className="send-button" onClick={() => handleSubmit()} >Send</div>
           </div>
         </div>
         <div className="main-container__column">
@@ -91,4 +91,3 @@ function ContactPage() {
 }
 
 export default ContactPage;
-

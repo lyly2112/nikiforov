@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 function ContactButton() {
     return (
-                <Link to="/contact" className="contact-button">Contact</Link>
-
+        <Link to="/contact" className="contact-button">Contact</Link>
     )
 }
 

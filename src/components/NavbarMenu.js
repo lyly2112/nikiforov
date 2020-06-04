@@ -2,10 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function NavbarMenu() {
-    return (
-      <div>
-        <div className="logo">Sergei Nikiforov</div>
-        <div className="navbar-menu">
+  return (
+    <div>
+      <div className="navbar-menu">
         <div className="navbar-menu__element">
           <Link to="/" className="navbar-menu__text">Home</Link>
         </div>
@@ -19,9 +18,8 @@ function NavbarMenu() {
           <Link to="/contact" className="navbar-menu__text">Contact</Link>
         </div>
       </div>
-      </div>
-
-    )
+    </div>
+  )
 }
 
 export default NavbarMenu;

@@ -9,17 +9,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  align-items: flex-end;
   justify-content: center;
   margin: auto;
   flex-grow: 1;
-  flex-direction: column; }
+  flex-direction: column;
+  position: relative; }
 
 .gallery__name {
   width: 70%;
   padding: 1rem;
   color: white;
   background-color: black;
-  align-self: flex-end; }
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  bottom: 1rem; }
 
 /*# sourceMappingURL=gallery.css.map */

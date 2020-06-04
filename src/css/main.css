@@ -176,6 +176,12 @@ html, body {
   box-sizing: border-box;
   font-size: 1rem; }
 
+@media only screen and (min-width: 768px) {
+  html {
+    width: 100%; }
+
+  body {
+    width: 100%; } }
 .contact-button:hover {
   background-color: black;
   color: white; }
@@ -228,18 +234,21 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  align-items: flex-end;
   justify-content: center;
   margin: auto;
   flex-grow: 1;
-  flex-direction: column; }
+  flex-direction: column;
+  position: relative; }
 
 .gallery__name {
   width: 70%;
   padding: 1rem;
   color: white;
   background-color: black;
-  align-self: flex-end; }
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  bottom: 1rem; }
 
 .main-container {
   display: flex;
