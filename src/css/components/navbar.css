@@ -9,8 +9,7 @@
   font-family: 'Prata', serif !important;
   height: 5rem;
   width: 100%;
-  align-items: center;
-  line-height: 1rem; }
+  align-items: center; }
 
 .navbar-menu__text {
   color: #6E6E6E;
@@ -33,5 +32,9 @@
 .logo {
   margin-right: 5rem;
   margin-left: 20rem; }
+
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    font-size: 0.5rem; } }
 
 /*# sourceMappingURL=navbar.css.map */

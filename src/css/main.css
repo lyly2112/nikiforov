@@ -221,8 +221,18 @@ html, body {
   margin: auto; }
 
 .footer__signature__column {
-  margin: 0 4rem 0 4rem; }
+  margin: 0 4rem 0 4rem;
+  flex-direction: row; }
 
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 0.3rem;
+    padding: 0;
+    height: 3rem;
+    margin: 0; }
+
+  .footer__signature__column {
+    margin: 0; } }
 .gallery-container {
   display: flex;
   height: 30rem;
@@ -317,8 +327,7 @@ html, body {
   font-family: 'Prata', serif !important;
   height: 5rem;
   width: 100%;
-  align-items: center;
-  line-height: 1rem; }
+  align-items: center; }
 
 .navbar-menu__text {
   color: #6E6E6E;
@@ -342,6 +351,9 @@ html, body {
   margin-right: 5rem;
   margin-left: 20rem; }
 
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    font-size: 0.5rem; } }
 .reviews {
   display: flex;
   flex-direction: row; }
@@ -394,6 +406,10 @@ html, body {
 .social-media:hover {
   opacity: 1; }
 
+@media only screen and (max-width: 600px) {
+  .social-media {
+    width: 1rem;
+    margin: 0; } }
 .work-with-me-container {
   display: flex;
   flex-direction: column;
@@ -470,7 +486,6 @@ html, body {
 
 .home-page__main-photo {
   display: flex;
-  background-image: url(../images/rainbow.jpg);
   height: 95vh;
   background-attachment: fixed;
   background-size: cover;
@@ -508,14 +523,18 @@ html, body {
 @media only screen and (max-width: 600px) {
   .home-page__main-photo {
     display: flex;
+    height: 100vh;
+    width: 100vw;
     height: 30vh;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    align-items: center;
     justify-content: center;
-    margin: auto; }
+    margin: auto;
+    flex-grow: 1;
+    flex-direction: column;
+    position: relative; }
 
   .home-page-bottom_intro {
     margin: 1rem 0 1rem 0;

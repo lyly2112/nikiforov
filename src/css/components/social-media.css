@@ -6,4 +6,9 @@
 .social-media:hover {
   opacity: 1; }
 
+@media only screen and (max-width: 600px) {
+  .social-media {
+    width: 1rem;
+    margin: 0; } }
+
 /*# sourceMappingURL=social-media.css.map */
