@@ -250,6 +250,25 @@ html, body {
   left: 0;
   bottom: 1rem; }
 
+@media only screen and (max-width: 600px) {
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    padding: 0;
+    justify-content: space-evenly; }
+
+  .gallery__photo {
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    margin: auto;
+    flex-grow: 1;
+    flex-direction: column;
+    position: relative; } }
 .main-container {
   display: flex;
   margin: auto;
@@ -298,11 +317,13 @@ html, body {
   font-family: 'Prata', serif !important;
   height: 5rem;
   width: 100%;
-  align-items: center; }
+  align-items: center;
+  line-height: 1rem; }
 
 .navbar-menu__text {
   color: #6E6E6E;
-  text-decoration: none; }
+  text-decoration: none;
+  justify-content: center; }
 
 .navbar-menu__text:hover {
   color: #6E6E6E;
@@ -390,7 +411,8 @@ html, body {
   font-weight: 900 !important;
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
-  padding: 1rem; }
+  padding: 1rem;
+  line-height: 1.5rem; }
 
 .work-with-me__paragraph {
   padding: 1rem; }
@@ -439,8 +461,8 @@ html, body {
   height: 6rem; }
 
 .map {
-  width: 20rem;
-  height: 20rem;
+  width: 30rem;
+  height: 30rem;
   border: none; }
 
 .home-page-wrap {
@@ -463,7 +485,8 @@ html, body {
   font-weight: 900 !important;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.2em;
+  line-height: 1rem; }
 
 .home-page-bottom {
   min-height: 95vh;
@@ -479,8 +502,24 @@ html, body {
 .home-page-bottom_intro {
   margin: 10rem;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  align-items: center; }
 
+@media only screen and (max-width: 600px) {
+  .home-page__main-photo {
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+    margin: auto; }
+
+  .home-page-bottom_intro {
+    margin: 1rem 0 1rem 0;
+    align-items: center; } }
 .services-container_header {
   margin-bottom: 2rem; }
 

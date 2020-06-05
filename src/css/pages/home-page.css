@@ -18,7 +18,8 @@
   font-weight: 900 !important;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.2em;
+  line-height: 1rem; }
 
 .home-page-bottom {
   min-height: 95vh;
@@ -34,6 +35,23 @@
 .home-page-bottom_intro {
   margin: 10rem;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  align-items: center; }
+
+@media only screen and (max-width: 600px) {
+  .home-page__main-photo {
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+    margin: auto; }
+
+  .home-page-bottom_intro {
+    margin: 1rem 0 1rem 0;
+    align-items: center; } }
 
 /*# sourceMappingURL=home-page.css.map */

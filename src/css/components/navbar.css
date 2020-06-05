@@ -9,11 +9,13 @@
   font-family: 'Prata', serif !important;
   height: 5rem;
   width: 100%;
-  align-items: center; }
+  align-items: center;
+  line-height: 1rem; }
 
 .navbar-menu__text {
   color: #6E6E6E;
-  text-decoration: none; }
+  text-decoration: none;
+  justify-content: center; }
 
 .navbar-menu__text:hover {
   color: #6E6E6E;

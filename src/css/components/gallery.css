@@ -25,4 +25,24 @@
   left: 0;
   bottom: 1rem; }
 
+@media only screen and (max-width: 600px) {
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    padding: 0;
+    justify-content: space-evenly; }
+
+  .gallery__photo {
+    height: 30vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    margin: auto;
+    flex-grow: 1;
+    flex-direction: column;
+    position: relative; } }
+
 /*# sourceMappingURL=gallery.css.map */
