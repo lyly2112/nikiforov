@@ -316,6 +316,40 @@ html, body {
   align-items: start;
   margin: 1rem; }
 
+@media only screen and (max-width: 600px) {
+  .main-container {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    min-height: 95vh;
+    flex-direction: column;
+    background-color: white;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex: 1;
+    box-sizing: border-box; }
+
+  .main-container__header {
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important; }
+
+  .main-container__inner-wrap {
+    flex-direction: column;
+    justify-content: space-between; }
+
+  .main-container__column {
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    margin: 0; } }
 .navbar-menu {
   display: flex;
   justify-content: center;
@@ -374,6 +408,16 @@ html, body {
   align-content: flex-start;
   text-align: left; }
 
+@media only screen and (max-width: 600px) {
+  .reviews {
+    flex-direction: column; }
+
+  .reviews-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+
+  .reviews-header {
+    margin: 0; } }
 .send-button {
   width: 6rem;
   border: 1px solid black;
@@ -433,6 +477,14 @@ html, body {
 .work-with-me__paragraph {
   padding: 1rem; }
 
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    font-size: 0.5rem; } }
+@media only screen and (max-width: 600px) {
+  .work-with-me-container {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem; } }
 .bio-container {
   display: flex;
   flex-direction: row; }
@@ -446,6 +498,18 @@ html, body {
   justify-content: left;
   text-align: left; }
 
+@media only screen and (max-width: 600px) {
+  .bio-container {
+    flex-direction: column; }
+
+  .avatar {
+    object-fit: cover;
+    width: 100%; }
+
+  .bio {
+    padding: 0;
+    justify-content: left;
+    text-align: left; } }
 .contact-page_my-contacts {
   text-align: left;
   margin: 0 0 5rem 0; }
@@ -481,6 +545,17 @@ html, body {
   height: 30rem;
   border: none; }
 
+@media only screen and (max-width: 600px) {
+  .contact-page_my-contacts {
+    text-align: left;
+    margin: 0; }
+
+  .map {
+    margin: 1rem 0 1rem 0;
+    height: 20rem; }
+
+  .contact-page_my-contacts > p {
+    margin: 0; } }
 .home-page-wrap {
   height: 100%; }
 
@@ -564,5 +639,9 @@ html, body {
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
   font-family: 'Prata', serif !important; }
+
+@media only screen and (max-width: 600px) {
+  .services-container_header {
+    margin-bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */

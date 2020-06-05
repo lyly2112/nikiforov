@@ -23,3 +23,16 @@
     align-content: flex-start;
     text-align: left;
   }
+
+  @media only screen and (max-width: 600px) {
+  .reviews {
+  flex-direction: column;
+  }
+  .reviews-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem
+  }
+  .reviews-header {
+    margin: 0;
+  }
+  }

@@ -33,4 +33,16 @@
   height: 30rem;
   border: none; }
 
+@media only screen and (max-width: 600px) {
+  .contact-page_my-contacts {
+    text-align: left;
+    margin: 0; }
+
+  .map {
+    margin: 1rem 0 1rem 0;
+    height: 20rem; }
+
+  .contact-page_my-contacts > p {
+    margin: 0; } }
+
 /*# sourceMappingURL=contact-page.css.map */

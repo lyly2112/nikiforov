@@ -23,3 +23,17 @@
   .work-with-me__paragraph {
     padding: 1rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    .navbar-menu {
+      font-size: 0.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .work-with-me-container {
+      width: 100%;
+      padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+  }

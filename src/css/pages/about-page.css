@@ -11,4 +11,17 @@
   justify-content: left;
   text-align: left; }
 
+@media only screen and (max-width: 600px) {
+  .bio-container {
+    flex-direction: column; }
+
+  .avatar {
+    object-fit: cover;
+    width: 100%; }
+
+  .bio {
+    padding: 0;
+    justify-content: left;
+    text-align: left; } }
+
 /*# sourceMappingURL=about-page.css.map */
