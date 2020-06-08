@@ -6,10 +6,10 @@ import { ExternalLink } from 'react-external-link';
 function Footer() {
     return (
         <div className="footer">
-            <div className="footer__signature__column">
-                <span><b>Sergei Nikiforov </b></span>
-                <span>All rights reserved</span>
-            </div>
+            <span className="footer__signature__column">
+                <span className="footer__bold">Sergei Nikiforov </span>
+                All rights reserved
+            </span>
             <div className="footer__signature__column">
                 <ExternalLink href="https://www.instagram.com/serjnike/">
                     <img div className="social-media" src={instagram} alt="instagram"></img>
@@ -18,9 +18,9 @@ function Footer() {
                     <img div className="social-media" src={youtube} alt="youtube"></img>
                 </ExternalLink>
             </div>
-            <div className="footer__signature__column">
-                <span>Site by <b>Majestic Bay</b></span>
-            </div>
+            <span className="footer__signature__column">Site by 
+                <span className="footer__bold"> Majestic Bay</span>
+            </span>
         </div>
     )
 }

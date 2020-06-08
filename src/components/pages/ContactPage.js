@@ -61,16 +61,16 @@ function ContactPage() {
               <input className="contact-form__input" type="text" name="name" placeholder="Your name" onChange={e => setContactFormName(e.target.value)} />
               <input className="contact-form__input" type="email" name="email" placeholder="Your email" onChange={e => setContactFormEmail(e.target.value)} />
               <input className="contact-form__input" type="tel" name="phone" placeholder="Your phone number" onChange={e => setContactFormPhone(e.target.value)} />
-              <textarea className="contact-form__message" rows="6" type="message" name="comments" placeholder="Type your message here" onChange={e => setContactFormMessage(e.target.value)} />
+              <textarea className="contact-form__message" type="message" name="comments" placeholder="Type your message here" onChange={e => setContactFormMessage(e.target.value)} />
             </form>
             <div className="send-button" onClick={() => handleSubmit()} >Send</div>
           </div>
         </div>
         <div className="main-container__column">
           <div className="contact-page_my-contacts">
-            <p>
+
               <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.4161662446!2d-122.48214752341369!3d47.61294318323425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1590653725172!5m2!1sen!2sus"></iframe>
-            </p>
+
             <p>Seattle, WA</p>
             <p>(972) 480-2509</p>
             <p>

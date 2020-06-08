@@ -4,8 +4,7 @@
 }
 
 .contact-page_my-contacts > p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
   
 .contact-form {
@@ -31,17 +30,17 @@
 .contact-form__message {
   border-radius: 1px;
   margin-bottom: 1rem;
-  height: 6rem;
+  height: 20vh;
 }
 
 .map {
-  width: 30rem;
-  height: 30rem;
+  width: 35vw;
+  height: 34.5vh;
   border: none;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .contact-page_my-contacts {
     text-align: left;
     margin: 0;

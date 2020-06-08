@@ -18,8 +18,8 @@ class App extends Component {
           <About/>
           <ContactUs/>
         </div>
-        <div classNAme="desktop">
-         { routes }
+        <div className="desktop">
+          { routes }
         </div>
         <Footer/>
       </div>

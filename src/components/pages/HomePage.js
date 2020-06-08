@@ -7,13 +7,13 @@ function HomePage() {
     return (
         <div className="home-page-wrap">
             <div className="home-page__main-photo" style={{ backgroundImage: `url(${rainbow})` }}>
-            <div className="home-page__intro-container">Sergei Nikiforov / freelance photographer</div>
+            <span className="home-page__intro-container">Sergei Nikiforov / freelance photographer</span>
             </div>
             <div className="home-page-bottom">
-                <div className="home-page-bottom_intro">I'm Sergei Nikiforov, a freelance photographer specializing in landscape, 
+                <span className="home-page-bottom_intro">I'm Sergei Nikiforov, a freelance photographer specializing in landscape, 
                         advertorial and conceptual photography, based in Seattle. Here you will be 
                         able to find my latest and favorite shots.
-                </div>
+                </span>
                 <Gallery />
                 <WorkWithMe />
             </div>

@@ -4,17 +4,19 @@
   align-items: center; }
 
 .mobile {
-  display: flex;
-  flex-direction: column; }
-
-.desktop {
   display: none; }
 
-@media only screen and (min-width: 768px) {
+.desktop {
+  display: flex;
+  margin: auto;
+  width: 100%; }
+
+@media only screen and (max-width: 768px) {
   .mobile {
-    display: none; }
+    display: flex;
+    flex-direction: column; }
 
   .desktop {
-    display: flex; } }
+    display: none; } }
 
 /*# sourceMappingURL=app.css.map */

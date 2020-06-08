@@ -8,7 +8,6 @@
   letter-spacing: 0.2em !important;
   font-family: 'Prata', serif !important;
   height: 5rem;
-  width: 100%;
   align-items: center; }
 
 .navbar-menu__text {
@@ -33,7 +32,7 @@
   margin-right: 5rem;
   margin-left: 20rem; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .navbar-menu {
     font-size: 0.5rem; } }
 

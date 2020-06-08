@@ -5,7 +5,6 @@
   .services-list {
     display: flex;
     flex-direction: row;
-    width: 70%;
     justify-content: space-evenly;
     margin: 0 auto;
   }
@@ -28,9 +27,8 @@
     font-family: 'Prata', serif !important;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     .services-container_header {
       margin-bottom: 0;
     }
-    
   }

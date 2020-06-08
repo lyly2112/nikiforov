@@ -1,7 +1,6 @@
 .main-container {
     display: flex;
-    margin: auto;
-    width: 70%;
+    margin: 0 10vw 0 10vw;
     min-height: 95vh;
     flex-direction: column;
     background-color: white;
@@ -33,13 +32,12 @@
 .main-container__column {
   display: flex;
   flex-direction: column;
-  width: 30rem;
+  width: 35vw;
   justify-content: start;
   align-items: start;
-  margin: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .main-container {
     display: flex;
     margin: auto;
