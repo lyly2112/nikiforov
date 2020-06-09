@@ -17,7 +17,7 @@
   justify-content: flex-start;
   margin: 0 auto;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 900 !important;
   text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
@@ -28,9 +28,14 @@
     margin-bottom: 0; }
 
   .services-container {
-    width: 100%; }
+    width: 100%;
+    font-size: 0.7rem; }
 
   .services-list {
-    flex-direction: column; } }
+    flex-direction: column; }
+
+  .service__header {
+    font-size: 0.7rem;
+    text-align: justify; } }
 
 /*# sourceMappingURL=services-page.css.map */

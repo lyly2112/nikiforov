@@ -22,16 +22,6 @@
 
 @media only screen and (max-width: 768px) {
   .work-with-me-container {
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 1vh; }
-
-  .work-with-me__header {
-    line-height: 1rem; }
-
-  .work-with-me__paragraph {
-    padding: 0.5rem;
-    font-size: 1.5vh; } }
+    display: none; } }
 
 /*# sourceMappingURL=work-with-me.css.map */
