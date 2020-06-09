@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     justify-content: center;
-    margin: auto;
+    margin: 1rem;
     flex-grow: 1;
     flex-direction: column;
     position: relative;
@@ -47,5 +47,9 @@
       flex-grow: 1;
       flex-direction: column;
       position: relative;
+    }
+    .gallery__name{
+      width: 100%;
+      bottom: 0;
     }
   }
