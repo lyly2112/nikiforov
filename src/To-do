@@ -55,7 +55,7 @@ Reviews.js
         <div className="reviews-container__reviews-content-container">
             <div className="reviews-content-container__text">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</div>
             <!-- Using a semantic paragraph tag -->
-            <p className="reviews-content-container__client-name">Connor Gibson</p>
+            <span className="reviews-content-container__client-name">Connor Gibson</span>
         </div>
     </div>
 </div>

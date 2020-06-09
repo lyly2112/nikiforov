@@ -6,13 +6,13 @@ function Gallery() {
     return (
         <div className="gallery-container">
             <div className="gallery__photo" style={{ backgroundImage: `url(${fog})` }}>
-                <div className="gallery__name">Landscape</div>
+                <span className="gallery__name">Landscape</span>
             </div>
             <div className="gallery__photo" style={{ backgroundImage: `url(${rainbow})` }}>
-                <div className="gallery__name">Street Photography</div>
+                <span className="gallery__name">Street Photography</span>
             </div>
             <div className="gallery__photo" style={{ backgroundImage: `url(${rainbow})` }}>
-                <div className="gallery__name">Portrait</div>
+                <span className="gallery__name">Portrait</span>
             </div>
         </div>
     )

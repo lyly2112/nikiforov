@@ -5,7 +5,7 @@ import Reviews from '../Reviews';
 function ServicesPage() {
     return (
         <div className="main-container">
-            <div className="main-container__header">My services</div>
+            <span className="main-container__header">My services</span>
             <ServicesContainer />
             <Reviews />
         </div>

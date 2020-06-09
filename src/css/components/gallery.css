@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   background-position: center center;
   justify-content: center;
-  margin: auto;
   flex-grow: 1;
   flex-direction: column;
   position: relative; }
@@ -39,12 +38,13 @@
     background-repeat: no-repeat;
     background-position: center center;
     justify-content: center;
-    margin: auto;
+    margin: 1vh 0;
     flex-grow: 1;
     flex-direction: column;
     position: relative; }
 
   .gallery__name {
-    width: 100%; } }
+    width: 100%;
+    bottom: 0; } }
 
 /*# sourceMappingURL=gallery.css.map */

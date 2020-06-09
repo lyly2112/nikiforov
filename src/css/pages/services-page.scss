@@ -30,5 +30,12 @@
   @media only screen and (max-width: 768px) {
     .services-container_header {
       margin-bottom: 0;
+      
+    }
+    .services-container {
+      width: 100%;
+    }
+    .services-list {
+      flex-direction: column;
     }
   }

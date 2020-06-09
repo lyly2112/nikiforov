@@ -18,9 +18,14 @@
     .mobile {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .desktop {
         display: none;
     }
+    .App {
+        width: 100%;
+    }
+    
 }

@@ -198,10 +198,14 @@ html, body {
 @media only screen and (max-width: 768px) {
   .mobile {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    width: 100%; }
 
   .desktop {
-    display: none; } }
+    display: none; }
+
+  .App {
+    width: 100%; } }
 .contact-button:hover {
   background-color: black;
   color: white; }
@@ -268,7 +272,6 @@ html, body {
   background-repeat: no-repeat;
   background-position: center center;
   justify-content: center;
-  margin: auto;
   flex-grow: 1;
   flex-direction: column;
   position: relative; }
@@ -298,17 +301,18 @@ html, body {
     background-repeat: no-repeat;
     background-position: center center;
     justify-content: center;
-    margin: auto;
+    margin: 1vh 0;
     flex-grow: 1;
     flex-direction: column;
     position: relative; }
 
   .gallery__name {
-    width: 100%; } }
+    width: 100%;
+    bottom: 0; } }
 .main-container {
   display: flex;
   margin: 0 10vw 0 10vw;
-  min-height: 95vh;
+  min-height: 0;
   flex-direction: column;
   background-color: white;
   justify-content: flex-start;
@@ -343,15 +347,15 @@ html, body {
 @media only screen and (max-width: 768px) {
   .main-container {
     display: flex;
-    margin: auto;
+    margin: 10vh 0;
+    min-height: 0;
     width: 100%;
-    min-height: 95vh;
     flex-direction: column;
     background-color: white;
     justify-content: flex-start;
     align-content: space-between;
-    flex: 1;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    border-bottom: 1px solid #E1E0E1; }
 
   .main-container__header {
     justify-content: flex-start;
@@ -509,7 +513,7 @@ html, body {
     line-height: 1rem; }
 
   .work-with-me__paragraph {
-    padding: 0;
+    padding: 0.5rem;
     font-size: 1.5vh; } }
 .bio-container {
   display: flex;
@@ -672,6 +676,12 @@ html, body {
 
 @media only screen and (max-width: 768px) {
   .services-container_header {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  .services-container {
+    width: 100%; }
+
+  .services-list {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=main.css.map */
