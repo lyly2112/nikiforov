@@ -21,7 +21,8 @@
 
   .bio {
     padding: 0;
-    justify-content: left;
-    text-align: left; } }
+    margin: 1rem 0.5rem;
+    justify-content: center;
+    text-align: justify; } }
 
 /*# sourceMappingURL=about-page.css.map */

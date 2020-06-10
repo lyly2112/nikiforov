@@ -1,6 +1,5 @@
 .social-media-container {
   flex-direction: row;
-  width: 6rem;
   justify-content: space-between;
   margin: 1rem 0;
 }
@@ -17,7 +16,12 @@
 
 @media only screen and (max-width: 768px) {
   .social-media {
-    width: 1rem;
-    margin: 0;
+    width: 1.5rem;
+    margin: 0 1rem;
     }
+  .social-media-container {
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0;
+    }   
   }
