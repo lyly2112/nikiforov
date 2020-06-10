@@ -78,7 +78,6 @@ function ContactPage() {
               <ExternalLink href="https://www.youtube.com/">
                 <img className="social-media" src={youtube} alt="youtube"></img>
               </ExternalLink>
-
             </div>
           </div>
         </div>

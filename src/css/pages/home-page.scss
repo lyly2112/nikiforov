@@ -17,12 +17,17 @@ width: 100%;
   }
   
   .home-page__intro-container {
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: 900 !important;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     line-height: 1rem;
+    text-align: center;
+  }
+
+  .home-page__intro-container > p{
+    margin: 2rem;
   }
 
   .home-page-bottom {
@@ -42,7 +47,7 @@ width: 100%;
   justify-content: center;
   text-align: center;
   align-items: center;
-  line-height: 1rem;
+  line-height: 1.5rem;
   font-size: 1rem;
 }
 

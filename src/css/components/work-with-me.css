@@ -18,7 +18,8 @@
   line-height: 1.5rem; }
 
 .work-with-me__paragraph {
-  padding: 1rem; }
+  padding: 1rem;
+  line-height: 2rem; }
 
 @media only screen and (max-width: 768px) {
   .work-with-me-container {
