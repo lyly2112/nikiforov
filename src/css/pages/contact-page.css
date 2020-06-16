@@ -4,7 +4,7 @@
   width: 100%; }
 
 .contact-page_my-contacts > p {
-  margin-top: 1rem; }
+  margin: 1rem 0 1rem 0; }
 
 .contact-form {
   display: flex;

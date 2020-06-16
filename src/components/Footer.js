@@ -11,15 +11,12 @@ function Footer() {
                 All rights reserved
             </span>
             <div className="footer__signature__column">
-
-                <div className="social-media-container--footer">
                     <ExternalLink href="https://www.instagram.com/serjnike/">
-                        <img className="social-media" src={instagram} alt="instagram"></img>
+                        <img className="social-media--footer" src={instagram} alt="instagram"></img>
                     </ExternalLink>
                     <ExternalLink href="https://www.youtube.com/">
-                        <img className="social-media" src={youtube} alt="youtube"></img>
+                        <img className="social-media--footer" src={youtube} alt="youtube"></img>
                     </ExternalLink>
-                </div>
             </div>
             <span className="footer__signature__column">Site by
                 <span className="footer__bold"> Majestic Bay</span>
