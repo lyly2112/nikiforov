@@ -1,6 +1,5 @@
 import React from 'react';
 import fog from '../images/fog.jpg';
-import rainbow from '../images/rainbow.jpg';
 import eva from '../images/eva.jpg';
 import gatorade from '../images/gatorade.jpg';
 
