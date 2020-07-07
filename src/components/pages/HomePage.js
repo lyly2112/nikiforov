@@ -10,9 +10,11 @@ function HomePage() {
             <span className="home-page__intro-container">Sergei Nikiforov / freelance photographer</span>
             </div>
             <div className="home-page-bottom">
-                <span className="home-page-bottom_intro">I'm Sergei Nikiforov, a freelance photographer specializing in landscape, 
-                        advertorial and conceptual photography, based in Seattle. Here you will be 
-                        able to find my latest and favorite shots.
+                <span className="home-page-bottom_intro">I do portraiture in natural scenic, Pacific North West 
+                backgrounds of your choice or mine. I provide prints of my landscape or conceptual photography to 
+                decorate and bring ambiance to your work or life space. I take photos of your product for inventory or 
+                showcase. Lastly in adventurer spirit I take adventure photos to capture that special moment of being
+                 one with your element.
                 </span>
                 <Gallery />
                 <WorkWithMe />

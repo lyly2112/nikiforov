@@ -5,11 +5,10 @@ function WorkWithMe() {
     return (
         <div className="work-with-me-container">
             <span className="work-with-me__header">Let's Work Together</span>
-            <span className="work-with-me__paragraph">Vivamus sagittis lacus
-            vel augue laoreet rutrum faucibus dolor auctor.
-            Donec sed odio dui. Nullam id dolor id nibh ultricies
-            vehicula ut id elit. Vestibulum id ligula porta felis
-            euismod semper.</span>
+            <span className="work-with-me__paragraph">If you would like to do a colab please 
+            feel free to reach out, I love working with other creatives or even translating
+             your vision into a finished visual product.
+</span>
             <ContactButton />
         </div>
     )
