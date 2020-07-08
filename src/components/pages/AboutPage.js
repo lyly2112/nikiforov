@@ -8,15 +8,7 @@ function AboutPage() {
             <span className="main-container__header">Who is behind?</span>
             <div className="bio-container">
                 <img className="avatar" src={avatar} alt="Avatar" />
-                <span className="bio">Praesent commodo cursus magna, 
-                vel scelerisque nisl consectetur et. Integer posuere erat 
-                a ante venenatis dapibus posuere velit aliquet. Maecenas 
-                sed diam eget risus varius blandit sit amet non magna. 
-                Aenean lacinia bibendum nulla sed consectetur. 
-                Vestibulum id ligula porta felis euismod semper. 
-                Nullam id dolor id nibh ultricies vehicula ut id elit, 
-                fusce dapibus, tellus ac cursus commodo. Cras mattis 
-                consectetur purus sit amet fermentum. Vestibulum id ligula.</span>
+                <span className="bio">I do portraiture in natural scenic, Pacific North West backgrounds of your choice or mine. I provide prints of my landscape or conceptual photography to decorate and bring ambiance to your work or life space. I take photos of your product for inventory or showcase. Lastly in adventurer spirit I take adventure photos to capture that special moment of being one with your element.</span>
             </div>
             <WorkWithMe />
         </div>

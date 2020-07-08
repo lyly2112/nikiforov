@@ -20,6 +20,9 @@
 .footer__bold {
   font-weight: 900; }
 
+.footer__signature__column > a > img {
+  margin: 1rem; }
+
 @media only screen and (max-width: 768px) {
   .footer {
     font-size: 0.3rem;
