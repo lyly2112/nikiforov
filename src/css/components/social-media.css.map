@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,aAAc;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,UAAU;;AAGpB,mBAAoB;EAClB,OAAO,EAAE,CAAC;;AAGZ,yCAA0C;EACxC,aAAc;IACZ,MAAM,EAAE,MAAM;IACd,MAAM,EAAE,MAAM",
-"sources": ["social-media.scss"],
-"names": [],
-"file": "social-media.css"
-}
