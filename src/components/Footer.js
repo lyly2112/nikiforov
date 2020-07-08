@@ -18,7 +18,7 @@ function Footer() {
                     <img div className="social-media" src={youtube} alt="youtube"></img>
                 </ExternalLink>
             </div>
-            <span className="footer__signature__column">Site by 
+            <span className="footer__signature__column">Site by
                 <span className="footer__bold"> Majestic Bay</span>
             </span>
         </div>

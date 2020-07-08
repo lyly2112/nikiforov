@@ -3,10 +3,10 @@
   margin: 0 0 5rem 0;
 }
 
-.contact-page_my-contacts > p {
+.contact-page_my-contacts>p {
   margin-top: 1rem;
 }
-  
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@
   flex-direction: column;
 }
 
-.contact-form__form > *  {
+.contact-form__form>* {
   box-shadow: none;
   height: 2rem;
   margin-bottom: 1rem;
@@ -46,14 +46,17 @@
     margin: 0;
     width: 100%;
   }
+
   .map {
     margin: 1rem 0 1rem 0;
     height: 20rem;
     width: 100%;
   }
-  .contact-page_my-contacts > p {
+
+  .contact-page_my-contacts>p {
     margin: 0 1rem 1rem 1rem;
   }
+
   .contact-form {
     margin: 1rem 0 0 0;
   }

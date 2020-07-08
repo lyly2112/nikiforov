@@ -14,23 +14,23 @@ function ServicesContainer() {
             <div className="services-list">
                 <div className="services-list_column">
                     <span className="service__header">
-                    <img className="service__image" src={photography} alt="Photography" />
+                        <img className="service__image" src={photography} alt="Photography" />
                         <h1>Photography</h1>
-                        </span>
-                        <span className="service__header">
-                    <img className="service__image" src={video} alt="Motion video" />
+                    </span>
+                    <span className="service__header">
+                        <img className="service__image" src={video} alt="Motion video" />
                         <h1>Motion video</h1>
-                        </span>
+                    </span>
                 </div>
                 <div className="services-list_column">
-                <span className="service__header">
-                    <img className="service__image" src={retouching} alt="Retouching" />
+                    <span className="service__header">
+                        <img className="service__image" src={retouching} alt="Retouching" />
                         <h1>Retouching</h1>
-                        </span>
-                        <span className="service__header">
-                    <img className="service__image" src={film} alt="Film photography" />
+                    </span>
+                    <span className="service__header">
+                        <img className="service__image" src={film} alt="Film photography" />
                         <h1>Film photography</h1>
-                        </span>                </div>
+                    </span>                </div>
             </div>
         </div>
     )

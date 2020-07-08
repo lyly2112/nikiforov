@@ -10,7 +10,7 @@ function Reviews() {
                     <div className="review__text-container">
                         <div className="review__text">
                             <span>
-                                Maecenas sed diam eget risus varius blandit sit amet non magna. 
+                                Maecenas sed diam eget risus varius blandit sit amet non magna.
                                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.
                             </span>
                         </div>
@@ -22,7 +22,7 @@ function Reviews() {
                     <div className="review__text-container">
                         <div className="review__text">
                             <span>
-                                Maecenas sed diam eget risus varius blandit sit amet non magna. 
+                                Maecenas sed diam eget risus varius blandit sit amet non magna.
                                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.
                             </span>
                         </div>

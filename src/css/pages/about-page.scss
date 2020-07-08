@@ -1,26 +1,29 @@
 .bio-container {
-    display: flex;
-    flex-direction: row;  
-  }
-  .avatar {
-    object-fit:cover;
-    width: 40%;
-  }
-  
-  .bio {
-    padding: 0 0 0 3rem;
-    justify-content: left;
-    text-align: justify;
-  }
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 40%;
+}
+
+.bio {
+  padding: 0 0 0 3rem;
+  justify-content: left;
+  text-align: justify;
+}
 
 @media only screen and (max-width: 768px) {
   .bio-container {
-    flex-direction: column;  
+    flex-direction: column;
   }
+
   .avatar {
-    object-fit:cover;
+    object-fit: cover;
     width: 100%;
   }
+
   .bio {
     padding: 0;
     margin: 1rem 0.5rem;
