@@ -9,7 +9,7 @@ function ServicesContainer() {
     return (
         <div className="services-container">
             <span className="services-container_header">
-                </span>
+            </span>
             <div className="services-list">
                 <div className="services-list_column">
                     <span className="service__header">
@@ -29,7 +29,8 @@ function ServicesContainer() {
                     <span className="service__header">
                         <img className="service__image" src={film} alt="Film photography" />
                         <h1>Film photography</h1>
-                    </span>                </div>
+                    </span>                
+                </div>
             </div>
         </div>
     )
