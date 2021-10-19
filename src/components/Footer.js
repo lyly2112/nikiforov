@@ -1,6 +1,6 @@
 import React from 'react';
 import instagram from '../images/instagram.svg';
-import youtube from '../images/youtube.svg';
+import artpal from '../images/artpal.png';
 import { ExternalLink } from 'react-external-link';
 
 function Footer() {
@@ -14,8 +14,8 @@ function Footer() {
                     <ExternalLink href="https://www.instagram.com/serjnike/">
                         <img className="social-media--footer" src={instagram} alt="instagram"></img>
                     </ExternalLink>
-                    <ExternalLink href="https://www.youtube.com/">
-                        <img className="social-media--footer" src={youtube} alt="youtube"></img>
+                    <ExternalLink href="https://www.artpal.com/Sergeinikiforoff">
+                        <img className="social-media--footer" src={artpal} alt="artpal"></img>
                     </ExternalLink>
             </div>
             <span className="footer__signature__column">Site by
