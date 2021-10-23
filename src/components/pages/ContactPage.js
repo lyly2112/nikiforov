@@ -76,7 +76,7 @@ function ContactPage() {
             <ExternalLink href="https://www.instagram.com/serjnike/">
                 <img className="social-media" src={instagram} alt="instagram"></img>
               </ExternalLink>
-              <ExternalLink href="https://www.youtube.com/">
+              <ExternalLink href="https://www.youtube.com/channel/UCIc6I8dbsjwYC3-GjZly1Hg">
                 <img className="social-media" src={youtube} alt="youtube"></img>
               </ExternalLink>
           </div>
